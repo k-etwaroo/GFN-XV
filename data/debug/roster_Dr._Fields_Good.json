@@ -1,0 +1,175 @@
+[
+  {
+    "player_id": 30977,
+    "name": "Josh Allen",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 31868,
+    "name": "Deebo Samuel",
+    "status": "Q",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 32704,
+    "name": "Michael Pittman Jr.",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 41922,
+    "name": "Cam Skattebo",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 41791,
+    "name": "Ashton Jeanty",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 31056,
+    "name": "Mark Andrews",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 42010,
+    "name": "Jacory Croskey-Merritt",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "W/R/T"
+  },
+  {
+    "player_id": 40878,
+    "name": "Brock Bowers",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 31905,
+    "name": "David Montgomery",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 41823,
+    "name": "TreVeyon Henderson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40911,
+    "name": "Keon Coleman",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 41052,
+    "name": "Kimani Vidal",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40108,
+    "name": "Kendre Miller",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 41935,
+    "name": "Jaydon Blue",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40835,
+    "name": "Jake Bates",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100026,
+    "name": "Seattle",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  }
+]

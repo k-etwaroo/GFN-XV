@@ -1,0 +1,175 @@
+[
+  {
+    "player_id": 29235,
+    "name": "Jared Goff",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 33500,
+    "name": "Amon-Ra St. Brown",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 40051,
+    "name": "Quentin Johnston",
+    "status": "Q",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 30972,
+    "name": "Saquon Barkley",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 40075,
+    "name": "Zach Charbonnet",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 41877,
+    "name": "Harold Fannin Jr.",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 41808,
+    "name": "Matthew Golden",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "W/R/T"
+  },
+  {
+    "player_id": 32687,
+    "name": "CeeDee Lamb",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 30182,
+    "name": "Cooper Kupp",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 31005,
+    "name": "Nick Chubb",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 30295,
+    "name": "Aaron Jones Sr.",
+    "status": "IR",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 33392,
+    "name": "Kyle Pitts Sr.",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 34094,
+    "name": "Calvin Austin III",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 30136,
+    "name": "Evan Engram",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 41081,
+    "name": "Joshua Karty",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100013,
+    "name": "Las Vegas",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  }
+]

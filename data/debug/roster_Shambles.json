@@ -1,0 +1,174 @@
+[
+  {
+    "player_id": 40896,
+    "name": "Jayden Daniels",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 34659,
+    "name": "Rashid Shaheed",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 40114,
+    "name": "Tre Tucker",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 30180,
+    "name": "Alvin Kamara",
+    "status": "Q",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 33495,
+    "name": "Michael Carter",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 40064,
+    "name": "Sam LaPorta",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 42598,
+    "name": "Isaiah Bond",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "W/R/T"
+  },
+  {
+    "player_id": 31908,
+    "name": "Terry McLaurin",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 33514,
+    "name": "Chuba Hubbard",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40048,
+    "name": "Dalton Kincaid",
+    "status": "Q",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40958,
+    "name": "Trey Benson",
+    "status": "IR",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9265,
+    "name": "Matthew Stafford",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 32843,
+    "name": "Darnell Mooney",
+    "status": "O",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 42012,
+    "name": "Brashard Smith",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 30266,
+    "name": "Jake Elliott",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100007,
+    "name": "Denver",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  }
+]

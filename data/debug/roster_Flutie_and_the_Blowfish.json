@@ -1,0 +1,174 @@
+[
+  {
+    "player_id": 32696,
+    "name": "Jordan Love",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 40041,
+    "name": "Jaxon Smith-Njigba",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 40893,
+    "name": "Marvin Harrison Jr.",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 34019,
+    "name": "James Cook III",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 32725,
+    "name": "J.K. Dobbins",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 34085,
+    "name": "Jake Ferguson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 32705,
+    "name": "D'Andre Swift",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "W/R/T"
+  },
+  {
+    "player_id": 32692,
+    "name": "Justin Jefferson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 31833,
+    "name": "Kyler Murray",
+    "status": "Q",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 26686,
+    "name": "Travis Kelce",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 34104,
+    "name": "Khalil Shakir",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 33508,
+    "name": "Rhamondre Stevenson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 33538,
+    "name": "Kenneth Gainwell",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 41865,
+    "name": "Isaac TeSlaa",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 40819,
+    "name": "Brandon Aubrey",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100023,
+    "name": "Pittsburgh",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  }
+]
