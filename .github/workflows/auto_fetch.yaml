@@ -1,0 +1,47 @@
+name: Weekly Yahoo Data Refresh
+
+on:
+  schedule:
+    # Runs every Wednesday at 3:00 AM Eastern Time (7:00 UTC)
+    - cron: "0 7 * * 3"
+  workflow_dispatch:  # allows manual trigger from GitHub Actions UI
+
+jobs:
+  fetch-yahoo-data:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2️⃣ Set up Python
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.9"
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install yahoo-fantasy-api yahoo-oauth pandas
+
+      # 4️⃣ Restore oauth2.json securely from GitHub Secrets
+      - name: Restore Yahoo OAuth credentials
+        env:
+          OAUTH_JSON: ${{ secrets.YAHOO_OAUTH_JSON }}
+        run: |
+          echo "$OAUTH_JSON" > oauth2.json
+
+      # 5️⃣ Run your Yahoo fetch script
+      - name: Run Yahoo Data Fetch
+        run: python fetch_yahoo_data.py
+
+      # 6️⃣ Commit updated CSVs
+      - name: Commit & Push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.csv
+          git commit -m "🤖 Auto-update fantasy data ($(date +'%Y-%m-%d'))" || echo "No changes to commit"
+          git push
