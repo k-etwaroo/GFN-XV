@@ -90,3 +90,8 @@ with st.expander("📊 Full Stats Table"):
         ].round(3),
         hide_index=True, width="stretch",
     )
+from components.header import render_header, render_footer
+
+# ... your page code ...
+
+render_footer()

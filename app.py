@@ -27,3 +27,9 @@ If using **GFN Money**, connect your Google Sheet via `.streamlit/secrets.toml`.
 💡 **Tip:** All pages automatically normalize your data (points, projected points, etc.)  
 so you can mix historical and current seasons with no setup needed.
 """)
+
+from components.header import render_header, render_footer
+
+# ... your page code ...
+
+render_footer()

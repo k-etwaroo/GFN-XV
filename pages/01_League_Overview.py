@@ -129,3 +129,9 @@ ax.set_title("Luck Index Across Teams", fontsize=13, weight="bold")
 st.pyplot(fig)
 
 st.info("💡 Includes Power Rank, Win%, and Luck Index — your at-a-glance league health check.")
+
+from components.header import render_header, render_footer
+
+# ... your page code ...
+
+render_footer()

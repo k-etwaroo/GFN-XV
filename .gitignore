@@ -1,10 +1,36 @@
-# Ignore virtual environment 
-.venv/ 
+# 🧠 Python Virtual Environment
+.venv/
+venv/
 __pycache__/
+*.pyc
 
-# Ignore credentials
-oauth2.json
+# 🧰 OS / IDE Files
+.DS_Store
+.idea/
+.vscode/
+
+# 📦 Environment & Secrets
 .env
+.env.local
+oauth2.json
+client_secret.json
+token.json
 
-# Ignore data files
-data/
+# 🧾 Local Data & Caches
+data/*.csv
+data/*.yaml
+data/*.txt
+!data/sample_data.csv  # (if you want to include one public example)
+
+# 🚀 Streamlit Config (local)
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# 🧪 Logs & Debug Output
+*.log
+logs/
+debug/
+
+# 🧑‍💻 Jupyter / Misc
+.ipynb_checkpoints/
+*.ipynb

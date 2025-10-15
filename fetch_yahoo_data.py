@@ -2,136 +2,127 @@ from yahoo_oauth import OAuth2
 import yahoo_fantasy_api as yfa
 import pandas as pd
 from datetime import datetime
+import os
 
-# --- Authenticate ---
+# ===============================================================
+# CONFIGURATION
+# ===============================================================
+LEAGUE_KEY = "461.l.23054"
+DATA_DIR = "data"
+os.makedirs(DATA_DIR, exist_ok=True)
+
+print("[Auth] 🔐 Loading OAuth2 credentials...")
 sc = OAuth2(None, None, from_file="oauth2.json")
-print("[Auth] ✅ OAuth2 loaded")
+print("[Auth] ✅ OAuth2 loaded successfully")
 
-# --- Connect to Yahoo NFL Game ---
 gm = yfa.Game(sc, "nfl")
 game_id = gm.game_id()
-print(f"[Game] Active NFL game ID: {game_id}")
-
-# --- Find the correct league ---
-league_ids = gm.league_ids()
-print(f"[Game] Leagues found: {league_ids}")
-
-PREFERRED_LEAGUE_ID = "23054"
-active_league = next(
-    (lid for lid in league_ids if PREFERRED_LEAGUE_ID in lid), None)
-if not active_league:
-    active_league = next(
-        (lid for lid in league_ids if str(game_id) in lid), league_ids[0])
-
-print(f"[League] Using {active_league}")
-
-# --- Connect to League ---
-lg = gm.to_league(active_league)
+lg = gm.to_league(LEAGUE_KEY)
 settings = lg.settings()
-num_weeks = int(settings.get("end_week", 17))
 current_year = int(settings.get("season", datetime.now().year))
+current_week = int(settings.get("current_week", 1))
+num_weeks = int(settings.get("end_week", 17))
 
-# --- Cache team metadata ---
-team_metadata = {}
+print(f"[League] Using league {LEAGUE_KEY}")
+print(f"[League] Year: {current_year}, Current Week: {current_week}, Total Weeks: {num_weeks}")
+
+# ===============================================================
+# TEAM METADATA
+# ===============================================================
 teams_data = lg.teams()
 if isinstance(teams_data, dict):
     teams_data = teams_data.values()
 
+team_metadata = {}
 for t in teams_data:
-    team_key = t.get("team_key", "")
     manager_info = t.get("managers", [{}])[0].get("manager", {})
-    team_metadata[team_key] = {
+    team_metadata[t["team_key"]] = {
         "team_name": t.get("name", "Unknown"),
         "manager": manager_info.get("nickname", ""),
-        "logo_url": (
-            t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", "")
-        ),
+        "logo_url": t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", ""),
         "felo_tier": manager_info.get("felo_tier", ""),
     }
 
-# --- Fetch matchups ---
-print(f"[Fetch] Pulling matchups for {num_weeks} weeks…")
-matchup_rows = []
+print(f"[Teams] Loaded {len(team_metadata)} teams.")
+
+# ===============================================================
+# FETCH MATCHUPS
+# ===============================================================
 yhandler = lg.yhandler
-league_id = active_league
+matchup_rows = []
 
-
-def parse_team_block(team_data):
-    """Extract team details including projected points."""
-    team_key = None
-    team_name = "Unknown"
-    points_actual = 0.0
-    points_proj = 0.0
-
-    # Flatten inner structure
-    for entry in team_data:
-        if isinstance(entry, list):
-            for item in entry:
-                if isinstance(item, dict):
-                    if "team_key" in item:
-                        team_key = item["team_key"]
-                    elif "team_id" in item and not team_key:
-                        for meta_key in team_metadata.keys():
-                            if meta_key.endswith(f".t.{item['team_id']}"):
-                                team_key = meta_key
-                                break
-                    if "name" in item:
-                        team_name = item["name"]
-                    if "team_points" in item:
-                        points_actual = float(
-                            item["team_points"].get("total", 0))
-                    if "team_projected_points" in item:
-                        points_proj = float(
-                            item["team_projected_points"].get("total", 0))
-
-    # Merge metadata
-    meta = team_metadata.get(team_key, {})
-    manager = meta.get("manager", "")
-    logo_url = meta.get("logo_url", "")
-    felo_tier = meta.get("felo_tier", "")
-
-    print(
-        f"Parsed team: {team_name} | Actual: {points_actual:.2f} | Projected: {points_proj:.2f}")
-
-    return {
-        "team": team_name,
-        "manager": manager,
-        "logo_url": logo_url,
-        "felo_tier": felo_tier,
-        "points_actual": points_actual,
-        "points_proj": points_proj,
-    }
-
-
-for week in range(1, num_weeks + 1):
+print(f"\n[Matchups] Fetching weekly scores through week {current_week}...")
+for week in range(1, current_week + 1):
     try:
-        raw = yhandler.get(f"league/{league_id}/scoreboard;week={week}")
-        scoreboard = raw.get("fantasy_content", {}).get(
-            "league", [])[1].get("scoreboard", {})
-        matchups = scoreboard.get("0", {}).get(
-            "matchups", {}) or scoreboard.get("matchups", {})
-
-        if not matchups:
-            print(f"⚠️ Week {week}: no matchup data found.")
+        raw = yhandler.get(f"league/{LEAGUE_KEY}/scoreboard;week={week}")
+        league_data = raw.get("fantasy_content", {}).get("league", [])
+        if len(league_data) < 2:
+            print(f"⚠️ Week {week}: No league data.")
             continue
 
-        for _, matchup_item in matchups.items():
-            if not isinstance(matchup_item, dict) or "matchup" not in matchup_item:
+        scoreboard = league_data[1].get("scoreboard", {})
+        matchups = (
+            scoreboard.get("0", {}).get("matchups", {}) or  # ✅ FIXED PATH
+            scoreboard.get("matchups", {})
+        )
+
+        if not matchups:
+            print(f"⚠️ Week {week}: No matchups found.")
+            continue
+
+        # handle both dict-style and list-style matchups
+        for mk, matchup_data in matchups.items():
+            if not isinstance(matchup_data, dict) or "matchup" not in matchup_data:
                 continue
-            matchup = matchup_item["matchup"]
-            teams_section = matchup.get("0", {}).get(
-                "teams") or matchup.get("teams")
+
+            matchup = matchup_data["matchup"]
+            teams_section = matchup.get("0", {}).get("teams") or matchup.get("teams", {})
             if not isinstance(teams_section, dict):
                 continue
 
             team_entries = [
-                teams_section[k]["team"]
-                for k in teams_section.keys()
-                if isinstance(teams_section[k], dict) and "team" in teams_section[k]
+                v["team"]
+                for v in teams_section.values()
+                if isinstance(v, dict) and "team" in v
             ]
             if len(team_entries) != 2:
                 continue
 
+            def parse_team_block(block):
+                team_key = None
+                team_name = "Unknown"
+                points_actual = 0.0
+                points_proj = 0.0
+
+                def deep_iter(d):
+                    """Recursively yield all nested dicts from lists or dicts."""
+                    if isinstance(d, dict):
+                        yield d
+                        for v in d.values():
+                            yield from deep_iter(v)
+                    elif isinstance(d, list):
+                        for i in d:
+                            yield from deep_iter(i)
+
+                for item in deep_iter(block):
+                    if "team_key" in item:
+                        team_key = item["team_key"]
+                    if "name" in item:
+                        team_name = item["name"]
+                    if "team_points" in item:
+                        points_actual = float(item["team_points"].get("total", 0))
+                    if "team_projected_points" in item:
+                        points_proj = float(item["team_projected_points"].get("total", 0))
+
+                meta = team_metadata.get(team_key, {})
+                return {
+                    "team": team_name or meta.get("team_name", "Unknown"),
+                    "manager": meta.get("manager", ""),
+                    "felo_tier": meta.get("felo_tier", ""),
+                    "logo_url": meta.get("logo_url", ""),
+                    "points_actual": points_actual,
+                    "points_proj": points_proj,
+                }
             tA = parse_team_block(team_entries[0])
             tB = parse_team_block(team_entries[1])
 
@@ -161,93 +152,153 @@ for week in range(1, num_weeks + 1):
                     "projected_points": tB["points_proj"],
                 },
             ])
-
         print(f"✅ Week {week}: {len(matchups)} matchups processed.")
+
     except Exception as e:
-        print(f"⚠️ Error in week {week}: {e}")
-        continue
+        print(f"⚠️ Error week {week}: {e}")
 
-# --- Export league matchups ---
-scores_df = pd.DataFrame(matchup_rows, columns=[
-    "season", "week", "team", "manager", "felo_tier", "logo_url",
-    "opponent", "points_for", "points_against", "projected_points"
-])
-
-output_path = f"data/scores_{current_year}.csv"
-scores_df.to_csv(output_path, index=False)
-print(f"\n[Export] ✅ {len(scores_df)} rows written to {output_path}")
-print(f"[Columns] {list(scores_df.columns)}")
+# Export team scores
+scores_df = pd.DataFrame(matchup_rows)
+scores_out = os.path.join(DATA_DIR, f"scores_{current_year}.csv")
+scores_df.to_csv(scores_out, index=False)
+print(f"\n[Export] ✅ Team scores written to {scores_out}")
 
 # ===============================================================
-# 🧩 NEW SECTION: Fetch Player-Level Stats (with actual + projected)
+# PLAYER STATS (limited for private leagues)
 # ===============================================================
-print(
-    f"\n[Fetch] Pulling player-level stats for all teams (Week {num_weeks})…")
-
+print(f"\n[Players] Fetching player rosters through week {current_week}...")
 players = []
-teams_data = lg.teams()
-if isinstance(teams_data, dict):
-    teams_data = teams_data.values()
 
 for t in teams_data:
+    team_key = t.get("team_key")
+    team_name = t.get("name", "Unknown")
+    manager_info = t.get("managers", [{}])[0].get("manager", {})
+    manager = manager_info.get("nickname", "")
+    logo_url = t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", "")
+
     try:
-        team_key = t.get("team_key")
-        team_name = t.get("name", "Unknown")
-        manager_info = t.get("managers", [{}])[0].get("manager", {})
-        manager = manager_info.get("nickname", "Unknown")
-        logo_url = (
-            t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", "")
-        )
-
-        print(f"📊 Fetching roster for {team_name} ({manager})…")
         t_obj = lg.to_team(team_key)
-        roster = t_obj.roster(week=num_weeks)
-
-        if isinstance(roster, list):
-            for p in roster:
-                # Extract actual & projected fantasy points if available
-                actual_points = 0.0
-                projected_points = 0.0
-
-                if "player_points" in p:
-                    actual_points = float(p["player_points"].get("total", 0.0))
-                elif "points" in p:
-                    actual_points = float(p["points"].get("total", 0.0))
-
-                if "player_projected_points" in p:
-                    projected_points = float(
-                        p["player_projected_points"].get("total", 0.0))
-
-                players.append({
-                    "season": current_year,
-                    "team": team_name,
-                    "manager": manager,
-                    "player_name": p.get("name", "Unknown"),
-                    "position": p.get("selected_position", "N/A"),
-                    "eligible_positions": ", ".join(p.get("eligible_positions", [])),
-                    "week": num_weeks,
-                    "logo_url": logo_url,
-                    "manager_image": manager_info.get("image_url", ""),
-                    "manager_felo": manager_info.get("felo_tier", ""),
-                    "actual_points": actual_points,
-                    "projected_points": projected_points,
-                })
-        else:
-            print(
-                f"⚠️ Unexpected roster format for {team_name}: {type(roster)}")
-
+        roster = t_obj.roster(week=current_week)
+        for p in roster:
+            players.append({
+                "season": current_year,
+                "team": team_name,
+                "manager": manager,
+                "player_name": p.get("name", ""),
+                "position": p.get("selected_position", ""),
+                "eligible_positions": ", ".join(p.get("eligible_positions", [])),
+                "week": current_week,
+                "logo_url": logo_url,
+                "manager_image": manager_info.get("image_url", ""),
+                "manager_felo": manager_info.get("felo_tier", ""),
+            })
     except Exception as e:
-        print(f"⚠️ Error fetching roster for {t.get('name', 'Unknown')}: {e}")
-        continue
+        if "denied" in str(e):
+            print(f"🚫 Skipping private team: {team_name}")
+        else:
+            print(f"⚠️ Error fetching {team_name}: {e}")
 
-# --- Export player stats ---
 if players:
     players_df = pd.DataFrame(players)
-    player_path = f"data/player_stats_{current_year}.csv"
-    players_df.to_csv(player_path, index=False)
-    print(f"[Export] ✅ {len(players_df)} player rows written to {player_path}")
-    print(f"[Columns] {list(players_df.columns)}")
+    players_out = os.path.join(DATA_DIR, f"player_stats_{current_year}.csv")
+    players_df.to_csv(players_out, index=False)
+    print(f"[Export] ✅ Player stats written to {players_out}")
 else:
-    print("⚠️ No player stats found — skipping export.")
+    print("⚠️ No player stats exported (private league)")
 
-print("\n🎉 Done! Both team and player data ready for Streamlit.")
+# ===============================================================
+# 🏈 SCOREBOARD PREVIEW (colorized with actual + projected)
+# ===============================================================
+print("\n🏈 [Preview] Latest Matchups Summary:")
+
+def color_text(text, color):
+    """Return colored terminal text using ANSI escape codes."""
+    colors = {
+        "green": "\033[92m",  # bright green
+        "red": "\033[91m",    # bright red
+        "white": "\033[97m",  # white / neutral
+        "reset": "\033[0m",
+    }
+    return f"{colors.get(color, '')}{text}{colors['reset']}"
+
+if not matchup_rows:
+    print("⚠️ No matchups parsed. Try again during an active week.")
+else:
+    df = pd.DataFrame(matchup_rows)
+    df = df.groupby(
+        ["week", "team", "opponent", "manager", "points_for", "points_against", "projected_points"],
+        as_index=False
+    ).first()
+
+    summary_rows = []  # for CSV export
+    for week in sorted(df["week"].unique()):
+        print(f"\n--- Week {week} ---")
+        week_df = df[df["week"] == week]
+        seen = set()
+
+        for _, row in week_df.iterrows():
+            matchup_key = tuple(sorted([row["team"], row["opponent"]]))
+            if matchup_key in seen:
+                continue
+            seen.add(matchup_key)
+
+            opp_row = week_df[
+                (week_df["team"] == row["opponent"]) & (week_df["opponent"] == row["team"])
+            ]
+            if not opp_row.empty:
+                opp_points = opp_row.iloc[0]["points_for"]
+                opp_proj = opp_row.iloc[0]["projected_points"]
+            else:
+                opp_points, opp_proj = 0.0, 0.0
+
+            # Determine colors (based on actual > 0 or projected)
+            if row["points_for"] > 0 or opp_points > 0:
+                if abs(row["points_for"] - opp_points) < 0.5:
+                    color_team = color_opp = "white"
+                elif row["points_for"] > opp_points:
+                    color_team, color_opp = "green", "red"
+                else:
+                    color_team, color_opp = "red", "green"
+            else:
+                if abs(row["projected_points"] - opp_proj) < 0.5:
+                    color_team = color_opp = "white"
+                elif row["projected_points"] > opp_proj:
+                    color_team, color_opp = "green", "red"
+                else:
+                    color_team, color_opp = "red", "green"
+
+            team_str = color_text(f"{row['team']} ({row['manager']})", color_team)
+            opp_str = color_text(f"{row['opponent']}", color_opp)
+
+            # Terminal display
+            print(
+                f"{team_str} vs {opp_str} → "
+                f"Actual: {row['points_for']:.1f} / {opp_points:.1f} | "
+                f"Proj: {row['projected_points']:.1f} / {opp_proj:.1f}"
+            )
+
+            # CSV-friendly row (no color codes)
+            summary_rows.append({
+                "season": current_year,
+                "week": week,
+                "team": row["team"],
+                "manager": row["manager"],
+                "opponent": row["opponent"],
+                "points_for": round(row["points_for"], 2),
+                "points_against": round(opp_points, 2),
+                "projected_for": round(row["projected_points"], 2),
+                "projected_against": round(opp_proj, 2),
+            })
+
+    # --- Export CSV Summary ---
+    summary_df = pd.DataFrame(summary_rows)
+    summary_path = f"data/matchup_summary_{current_year}.csv"
+    summary_df.to_csv(summary_path, index=False)
+    print(f"\n[Export] 🗂️ Matchup summary written to {summary_path}")
+
+print("\n🎉 Done! Data ready for Streamlit.")
+# --- Record last updated time ---
+from datetime import datetime
+with open("data/last_updated.txt", "w") as f:
+    f.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
+print("\n🕓 Timestamp written to data/last_updated.txt")

@@ -115,3 +115,9 @@ for team_name, group in df.groupby("team"):
             st.dataframe(group[["player_name", position_col, "eligible_positions"]],
                          hide_index=True, use_container_width=True)
         st.divider()
+
+from components.header import render_header, render_footer
+
+# ... your page code ...
+
+render_footer()
