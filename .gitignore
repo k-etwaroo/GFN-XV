@@ -4,8 +4,7 @@ __pycache__/
 
 # Ignore credentials
 oauth2.json
-Yahoo_OAuth.json
-.environment
+.env
 
 # Ignore data files
 data/
