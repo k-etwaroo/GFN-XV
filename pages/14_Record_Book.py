@@ -1,94 +1,69 @@
-import os
 import pandas as pd
-import numpy as np
 import streamlit as st
-import plotly.express as px
-from components.header import render_header
+import os
+from tools.data_loader import load_scores_all, load_franchise, attach_franchise
 
-st.set_page_config(page_title="🏅 Record Book", layout="wide")
-render_header("Goodell For Nothing XV")
-st.title("🏅 Record Book — All-Time Highlights")
+scores = load_scores_all()
+frmap = load_franchise_map()
+scores = attach_franchise(scores, frmap)
+
+if scores.empty:
+    st.warning("No scores found in /data yet.")
+    st.stop()
+
+# Common filters
+all_seasons = sorted(scores["season"].dropna().unique().tolist())
+season = st.sidebar.selectbox("Season", ["All"] + all_seasons, index=len(all_seasons))
+view = scores if season == "All" else scores[scores["season"] == season]
+st.set_page_config(page_title="🏈 Record Book", layout="wide")
+st.title("🏈 GFN XV Record Book")
+st.caption("Franchise records by wins, points, and streaks")
 
 DATA_DIR = "data"
-combined_path = os.path.join(DATA_DIR, "combined_seasons_scores.csv")
-current_path = os.path.join(DATA_DIR, "scores_2025.csv")
+scores_files = [f for f in os.listdir(DATA_DIR) if f.startswith("scores_") and f.endswith(".csv")]
 
-# --- Load data ---
-if os.path.exists(combined_path):
-    df = pd.read_csv(combined_path)
-elif os.path.exists(current_path):
-    df = pd.read_csv(current_path)
-else:
-    st.error("❌ No matchup data found. Run fetch_yahoo_data.py first.")
+if not scores_files:
+    st.error("❌ No matchup data found in /data.")
     st.stop()
 
-if df.empty:
-    st.warning("No data available.")
-    st.stop()
+dfs = []
+for f in scores_files:
+    df = pd.read_csv(os.path.join(DATA_DIR, f))
+    if not df.empty:
+        dfs.append(df)
 
-# --- Clean numeric fields ---
-for c in ["points_for", "points_against"]:
-    df[c] = pd.to_numeric(df[c], errors="coerce").fillna(0.0)
+df = pd.concat(dfs, ignore_index=True)
 
-# --- Derived columns ---
-df["margin"] = df["points_for"] - df["points_against"]
-df["total_pts"] = df["points_for"] + df["points_against"]
+# --- Derived Columns ---
+df["win"] = (df["points_for"] > df["points_against"]).astype(int)
+df["loss"] = (df["points_for"] < df["points_against"]).astype(int)
 
-# --- Season filter ---
-if "season" in df.columns:
-    seasons = sorted(df["season"].unique())
-    selected_season = st.selectbox(
-        "Select Season", ["All-Time"] + [str(s) for s in seasons])
-    if selected_season != "All-Time":
-        df = df[df["season"] == int(selected_season)]
+# --- Franchise summaries ---
+agg = df.groupby("team").agg(
+    games=("week", "count"),
+    wins=("win", "sum"),
+    losses=("loss", "sum"),
+    total_points=("points_for", "sum"),
+    avg_points=("points_for", "mean"),
+    avg_margin=(lambda x: (df.loc[x.index, "points_for"] - df.loc[x.index, "points_against"]).mean())
+).reset_index()
 
-# --- Compute Records ---
-records = {
-    "Highest Team Score": df.loc[df["points_for"].idxmax()],
-    "Lowest Team Score": df.loc[df["points_for"].idxmin()],
-    "Largest Blowout": df.loc[df["margin"].idxmax()],
-    "Closest Win": df.loc[df["margin"][df["margin"] > 0].idxmin()],
-    "Highest Combined Total": df.loc[df["total_pts"].idxmax()],
-}
+agg["win_pct"] = (agg["wins"] / agg["games"]).round(3)
 
-# --- Display ---
-st.subheader("🏆 All-Time (or Season) Records")
+st.markdown("### 🏆 Franchise Summary")
+st.dataframe(agg.sort_values("win_pct", ascending=False),
+             use_container_width=True, hide_index=True)
 
-for label, rec in records.items():
-    st.markdown(f"### {label}")
-    cols = st.columns([1, 3, 3])
-    with cols[0]:
-        if pd.notna(rec.get("logo_url")) and str(rec["logo_url"]).startswith("http"):
-            st.image(rec["logo_url"], width=80)
-        else:
-            st.markdown("🏈")
-    with cols[1]:
-        st.markdown(
-            f"**Team:** {rec['team']}  \n**Manager:** {rec.get('manager', '')}  ")
-        st.markdown(
-            f"**Opponent:** {rec['opponent']}  \n**Week:** {rec['week']}")
-        if "season" in rec:
-            st.markdown(f"**Season:** {int(rec['season'])}")
-    with cols[2]:
-        st.metric(
-            label="Points For",
-            value=f"{rec['points_for']:.2f}",
-            delta=f"vs {rec['points_against']:.2f}",
-        )
-    st.divider()
+# --- Top Franchise Records ---
+st.markdown("### 🥇 Most Wins & High Scoring Teams")
 
-# --- Bonus chart: Top 10 single-game scores ---
-st.subheader("🔥 Top 10 Single-Game Scores")
-top10 = df.nlargest(10, "points_for")[
-    ["season", "week", "team", "points_for", "opponent"]]
-fig = px.bar(
-    top10,
-    x="team",
-    y="points_for",
-    color="season" if "season" in df.columns else None,
-    hover_data=["opponent", "week"],
-    title="Top 10 Highest Scoring Performances",
-)
-st.plotly_chart(fig, use_container_width=True)
+most_wins = agg.sort_values("wins", ascending=False).head(5)
+highest_avg = agg.sort_values("avg_points", ascending=False).head(5)
 
-st.caption("Data: Yahoo Fantasy API → fetch_yahoo_data.py")
+col1, col2 = st.columns(2)
+with col1:
+    st.metric("Most Wins", most_wins.iloc[0]["team"], f"{int(most_wins.iloc[0]['wins'])} Wins")
+with col2:
+    st.metric("Highest Avg Points", highest_avg.iloc[0]["team"], f"{highest_avg.iloc[0]['avg_points']:.1f} PPG")
+
+st.info("💡 Record Book now automatically adapts to any number of seasons.")

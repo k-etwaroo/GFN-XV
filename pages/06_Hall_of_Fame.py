@@ -1,54 +1,61 @@
-import os
-import pandas as pd
-import numpy as np
 import streamlit as st
-st.set_page_config(page_title="🏛️ Hall of Fame", layout="wide")
-st.title("🏛️ Hall of Fame")
-DATA_DIR = "data"
+import pandas as pd
+from tools.loaders import load_all_scores, load_league_map
+from tools.data_loader import load_scores_all, load_franchise, attach_franchise
 
+scores = load_scores_all()
+frmap = load_franchise_map()
+scores = attach_franchise(scores, frmap)
 
-def safe_read_csv(p):
-    try:
-        return pd.read_csv(p) if os.path.exists(p) else pd.DataFrame()
-    except Exception:
-        return pd.DataFrame()
-
-
-def list_years(prefix):
-    years = []
-    for f in os.listdir(DATA_DIR):
-        if f.startswith(prefix) and f.split("_")[1].split(".")[0].isdigit():
-            years.append(int(f.split("_")[1].split(".")[0]))
-    return sorted(years)
-
-
-years = list_years("scores_")
-if not years:
-    st.info("Add multiple seasons to populate Hall of Fame.")
+if scores.empty:
+    st.warning("No scores found in /data yet.")
     st.stop()
 
-frames = []
-for y in years:
-    sc = safe_read_csv(os.path.join(DATA_DIR, f"scores_{y}.csv"))
-    if sc.empty:
-        continue
-    sc["Year"] = y
-    # derive win_val without relying on a 'result' column
-    sc["win_val"] = np.where(sc["points_for"] > sc["points_against"], 1.0,
-                             np.where(sc["points_for"] < sc["points_against"], 0.0, 0.5))
-    frames.append(sc)
+# Common filters
+all_seasons = sorted(scores["season"].dropna().unique().tolist())
+season = st.sidebar.selectbox("Season", ["All"] + all_seasons, index=len(all_seasons))
+view = scores if season == "All" else scores[scores["season"] == season]
+st.set_page_config(page_title="🏅 Hall of Fame", layout="wide")
+st.title("🏅 Hall of Fame — All-Time Greats")
 
-if not frames:
-    st.info("No data loaded.")
+# --- Load data ---
+df = load_all_scores()
+if df.empty:
+    st.warning("No matchup data found.")
     st.stop()
 
-hist = pd.concat(frames, ignore_index=True)
+league_map = load_league_map()
+league_name = next(iter(league_map.values()))["name"] if league_map else "League"
 
-# Simple champion proxy: most wins in that season
-season_totals = hist.groupby(["Year", "team"], as_index=False)["win_val"].sum()
-champions = season_totals.sort_values(["Year", "win_val"], ascending=[
-                                      True, False]).groupby("Year").head(1)
+st.caption(f"{league_name} | {df['season'].min()} – {df['season'].max()} Seasons")
 
-st.subheader("Season Champions (by win value proxy)")
-st.dataframe(champions.rename(
-    columns={"win_val": "wins"}), use_container_width=True, height=380)
+# --- Season filter ---
+years = sorted(df["season"].unique())
+multi_select = st.multiselect("Filter by Seasons", years, default=years)
+
+df = df[df["season"].isin(multi_select)]
+
+# --- Derived stats ---
+df["win"] = (df["points_for"] > df["points_against"]).astype(int)
+df["loss"] = (df["points_for"] < df["points_against"]).astype(int)
+df["margin"] = df["points_for"] - df["points_against"]
+
+agg = df.groupby("team").agg(
+    games=("week", "count"),
+    wins=("win", "sum"),
+    losses=("loss", "sum"),
+    points_for=("points_for", "sum"),
+    points_against=("points_against", "sum"),
+    avg_margin=("margin", "mean"),
+).reset_index()
+
+agg["win_pct"] = (agg["wins"] / agg["games"]).round(3)
+agg["hof_score"] = (agg["wins"] * 2) + (agg["avg_margin"] / 10)
+agg = agg.sort_values("hof_score", ascending=False)
+
+st.subheader("🏆 All-Time Win Leaders")
+st.dataframe(
+    agg[["team", "games", "wins", "losses", "win_pct", "avg_margin", "hof_score"]].round(2),
+    use_container_width=True,
+    hide_index=True
+)
