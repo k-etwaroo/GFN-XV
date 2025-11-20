@@ -1,0 +1,185 @@
+[
+  {
+    "player_id": 25785,
+    "name": "Russell Wilson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 24057,
+    "name": "Emmanuel Sanders",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 24035,
+    "name": "Golden Tate",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8821,
+    "name": "Matt Forte",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 26878,
+    "name": "C.J. Anderson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 26686,
+    "name": "Travis Kelce",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 27582,
+    "name": "Bishop Sankey",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "W/R/T"
+  },
+  {
+    "player_id": 27619,
+    "name": "John Brown",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 27631,
+    "name": "Devonta Freeman",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 28465,
+    "name": "Duke Johnson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 26697,
+    "name": "Terrance Williams",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9286,
+    "name": "Percy Harvin",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 28402,
+    "name": "DeVante Parker",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7760,
+    "name": "Jay Cutler",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 27566,
+    "name": "Austin Seferian-Jenkins",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE",
+      "W/R/T"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9066,
+    "name": "Stephen Hauschka",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100026,
+    "name": "Seattle",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  }
+]

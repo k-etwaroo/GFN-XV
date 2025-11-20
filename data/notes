@@ -1,0 +1,290 @@
+
+
+
+
+#
+
+
+
+
+
+
+
+# ================================
+# FILE: pages/09_Top_Performers.py
+# ================================
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from components.header import render_header
+from tools.data_loader import load_player_stats_all
+
+st.set_page_config(page_title="🌟 Top Performers", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("🌟 Top Performers")
+
+ps = load_player_stats_all()
+if ps.empty:
+    st.info("Add player_stats files.")
+    st.stop()
+
+if "actual_points" not in ps.columns:
+    st.info("player_stats need 'actual_points'.")
+    st.stop()
+
+sel = st.selectbox("Season", sorted(ps["season"].unique()), index=len(ps["season"].unique())-1)
+vv = ps[ps["season"]==sel]
+
+st.subheader("Top 20 Player Weeks")
+ranked = vv.sort_values("actual_points", ascending=False).head(20)
+st.dataframe(ranked[["player_name","position","team","week","actual_points"]], hide_index=True, width='stretch')
+fig = px.bar(ranked, x="player_name", y="actual_points", color="position", title=f"Top Weeks — {sel}")
+st.plotly_chart(fig, use_container_width=True)
+
+# ================================
+# FILE: pages/10_Money_Analytics.py
+# ================================
+import streamlit as st
+from components.header import render_header
+
+st.set_page_config(page_title="🧾 Money Analytics", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("🧾 Money Analytics")
+
+st.info("Connect Google Sheet in secrets.toml and use Payout Leaderboard page for details.")
+
+# ================================
+# FILE: pages/11_📊_Advanced_Analytics.py
+# ================================
+import streamlit as st
+import pandas as pd
+import numpy as np
+import altair as alt
+from components.header import render_header
+from tools.data_loader import load_scores_all
+
+st.set_page_config(page_title="📊 Advanced Analytics", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("📊 Advanced Analytics — Efficiency & Luck")
+
+df = load_scores_all()
+if df.empty:
+    st.warning("No data available.")
+    st.stop()
+
+for c in ["points_for","projected_points"]:
+    if c in df: df[c] = pd.to_numeric(df[c], errors="coerce")
+
+if "projected_points" not in df.columns:
+    st.info("This page uses projected_points. It's optional; add if available.")
+    df["projected_points"] = np.nan
+
+df["luck"] = df["points_for"] - df["projected_points"]
+df["efficiency"] = df["points_for"] / df["projected_points"]
+df.loc[df["projected_points"].isna() | (df["projected_points"]<=0), ["luck","efficiency"]] = np.nan
+
+summary = (df.dropna(subset=["points_for"]).groupby(["season","team"], dropna=False)
+             .agg(games=("week","nunique"),
+                  avg_points=("points_for","mean"),
+                  avg_proj=("projected_points","mean"),
+                  avg_luck=("luck","mean"),
+                  eff=("efficiency","mean"),
+                  consistency=("points_for","std")).reset_index())
+summary["consistency"] = summary["consistency"].fillna(0)
+summary["power"] = summary["avg_points"]*0.5 + (summary["eff"].fillna(0)*100)*0.3 + summary["avg_luck"].fillna(0)*0.1 - summary["consistency"]*0.1
+
+st.subheader("Top by Power")
+st.dataframe(summary.sort_values("power", ascending=False).head(10).round(3), hide_index=True, width='stretch')
+
+st.subheader("Luck by Week")
+chart = (alt.Chart(df.dropna(subset=["luck"]))
+          .mark_circle(size=80, opacity=0.7)
+          .encode(x=alt.X("week:O"), y=alt.Y("luck:Q"), color="team:N", tooltip=["season","team","week","points_for","projected_points","luck"]))
+st.altair_chart(chart, use_container_width=True)
+
+# ================================
+# FILE: pages/12_🆚_Season_Comparison.py
+# ================================
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from components.header import render_header
+from tools.data_loader import load_scores_all
+
+st.set_page_config(page_title="🆚 Season Comparison", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("🆚 Season Comparison")
+
+df = load_scores_all()
+if df.empty:
+    st.info("Need at least two seasons of scores to compare.")
+    st.stop()
+
+seasons = sorted(df["season"].unique())
+if len(seasons) < 2:
+    st.info("Need at least two seasons.")
+    st.stop()
+
+c1,c2 = st.columns(2)
+with c1: s1 = st.selectbox("Season A", seasons, index=0)
+with c2: s2 = st.selectbox("Season B", seasons, index=1)
+
+def frame(year):
+    sc = df[df["season"]==year].copy()
+    sc["win_val"] = (sc["points_for"]>sc["points_against"]).map({True:1, False:0})
+    winp = sc.groupby("team", as_index=False)["win_val"].mean().rename(columns={"win_val":"winp"})
+    pts = sc.groupby("team", as_index=False)["points_for"].sum().rename(columns={"points_for":"total_points"})
+    return winp.merge(pts, on="team", how="left")
+
+a, b = frame(s1), frame(s2)
+col1, col2 = st.columns(2)
+with col1:
+    fig1 = px.scatter(a, x='winp', y=a['total_points']/a['total_points'].max(), hover_name='team', title=f"Season {s1}")
+    st.plotly_chart(fig1, use_container_width=True)
+with col2:
+    fig2 = px.scatter(b, x='winp', y=b['total_points']/b['total_points'].max(), hover_name='team', title=f"Season {s2}")
+    st.plotly_chart(fig2, use_container_width=True)
+
+merged = a.merge(b, on='team', suffixes=(f"_{s1}", f"_{s2}"))
+merged['Δ Win%'] = (merged[f'winp_{s2}'] - merged[f'winp_{s1}']).round(3)
+merged['Δ Points'] = (merged[f'total_points_{s2}'] - merged[f'total_points_{s1}']).round(1)
+st.subheader("Δ Metrics Table")
+st.dataframe(merged[['team', f'winp_{s1}', f'winp_{s2}', 'Δ Win%', f'total_points_{s1}', f'total_points_{s2}', 'Δ Points']], hide_index=True, width='stretch')
+
+# ================================
+# FILE: pages/13_💸_Payout_Leaderboard.py
+# ================================
+import streamlit as st
+import pandas as pd
+import plotly.express as px
+from components.header import render_header
+
+st.set_page_config(page_title='💸 Payout Leaderboard', layout='wide')
+render_header("Goodell For Nothing XV")
+st.title('💸 Payout Leaderboard')
+
+st.info("Connect Google Sheet in secrets.toml. This page will populate once connected.")
+
+# ================================
+# FILE: pages/14_Record_Book.py
+# ================================
+import streamlit as st
+import pandas as pd
+from components.header import render_header
+from tools.data_loader import load_scores_all, load_player_stats_all
+
+st.set_page_config(page_title="📘 Record Book", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("📘 Record Book")
+
+sc = load_scores_all(); ps = load_player_stats_all()
+if sc.empty:
+    st.info("Add scores to see team records.")
+else:
+    st.subheader("Team — Highest Single Week")
+    st.dataframe(sc.sort_values("points_for", ascending=False).head(15)[["season","team","week","points_for"]], hide_index=True, width='stretch')
+
+if ps.empty or "actual_points" not in ps.columns:
+    st.info("Add player_stats with 'actual_points' to see player records.")
+else:
+    st.subheader("Player — Top Single Week")
+    st.dataframe(ps.sort_values("actual_points", ascending=False).head(15)[["season","player_name","team","position","week","actual_points"]], hide_index=True, width='stretch')
+
+# ================================
+# FILE: pages/15_Weekly_Awards.py
+# ================================
+import streamlit as st
+import pandas as pd
+from components.header import render_header
+from tools.data_loader import load_scores_all, load_player_stats_all
+
+st.set_page_config(page_title="🏅 Weekly Awards", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("🏅 Weekly Awards")
+
+sc = load_scores_all(); ps = load_player_stats_all()
+if sc.empty:
+    st.info("Add scores.")
+    st.stop()
+
+seasons = sorted(sc["season"].unique())
+sel = st.selectbox("Season", seasons, index=len(seasons)-1)
+ws = sorted(sc[sc["season"]==sel]["week"].unique())
+wk = st.selectbox("Week", ws, index=0)
+
+wkdf = sc[(sc["season"]==sel) & (sc["week"]==wk)].copy()
+if wkdf.empty:
+    st.info("No games that week.")
+else:
+    st.subheader("🏆 Highest Team Score")
+    st.dataframe(wkdf.sort_values("points_for", ascending=False).head(1)[["team","points_for"]], hide_index=True)
+    st.subheader("😬 Biggest Blowout (margin)")
+    wkdf["margin"] = wkdf["points_for"]-wkdf["points_against"]
+    st.dataframe(wkdf.sort_values("margin", ascending=False).head(1)[["team","opponent","margin"]], hide_index=True)
+
+if ps.empty or "actual_points" not in ps.columns:
+    st.info("Player MVP requires player_stats with 'actual_points'.")
+else:
+    wkp = ps[(ps["season"]==sel) & (ps["week"]==wk)]
+    if not wkp.empty:
+        st.subheader("🌟 Player MVP (Week)")
+        st.dataframe(wkp.sort_values("actual_points", ascending=False).head(1)[["player_name","team","position","actual_points"]], hide_index=True)
+
+# ================================
+# FILE: pages/16_Matchup_Summary.py
+# ================================
+import streamlit as st
+import pandas as pd
+import numpy as np
+import plotly.express as px
+from components.header import render_header
+from tools.data_loader import load_scores_all
+
+st.set_page_config(page_title="🔍 Matchup Summary", layout="wide")
+render_header("Goodell For Nothing XV")
+st.title("🔍 Matchup Summary")
+
+df = load_scores_all()
+if df.empty:
+    st.warning("No matchup data found.")
+    st.stop()
+
+for c in ["points_for","points_against","projected_points"]:
+    if c in df: df[c] = pd.to_numeric(df[c], errors="coerce")
+
+seasons = sorted(df["season"].unique())
+sel_season = st.selectbox("Season", seasons, index=len(seasons)-1)
+wks = sorted(df[df["season"]==sel_season]["week"].unique())
+sel_week = st.selectbox("Week", wks, index=len(wks)-1)
+
+wk = df[(df["season"]==sel_season) & (df["week"]==sel_week)].copy()
+if wk.empty:
+    st.info("No data for that week.")
+    st.stop()
+
+wk["margin"] = wk["points_for"] - wk["points_against"]
+
+st.subheader("Scoreboard")
+score_cols = [c for c in ["team","opponent","points_for","points_against","projected_points","margin"] if c in wk.columns]
+st.dataframe(wk.sort_values("points_for", ascending=False)[score_cols], hide_index=True, width='stretch')
+
+st.subheader("Heatmap (Projected vs Actual)")
+if "projected_points" in wk.columns and wk["projected_points"].notna().any():
+    fig = px.imshow(pd.DataFrame({
+        "Actual": wk.set_index("team")["points_for"],
+        "Projected": wk.set_index("team")["projected_points"],
+    }).T, aspect="auto", title="Team Actual vs Projected (columns = teams)")
+    st.plotly_chart(fig, use_container_width=True)
+else:
+    st.info("No projected_points for this week.")
+
+st.subheader("Power Movers (Week over Week Avg Points)")
+prev_weeks = df[(df["season"]==sel_season) & (df["week"]<sel_week)]
+if not prev_weeks.empty:
+    prev = prev_weeks.groupby("team", as_index=False)["points_for"].mean().rename(columns={"points_for":"prior_avg"})
+    cur = wk[["team","points_for"]].rename(columns={"points_for":"this_week"})
+    movers = cur.merge(prev, on="team", how="left")
+    movers["Δ"] = movers["this_week"] - movers["prior_avg"]
+    st.dataframe(movers.sort_values("Δ", ascending=False), hide_index=True, width='stretch')
+else:
+    st.info("Need prior weeks in same season for movers.")

@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 6624,
+    "name": "Tony Romo",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 7203,
+    "name": "Roddy White",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 6390,
+    "name": "Anquan Boldin",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8354,
+    "name": "Michael Bush",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 7751,
+    "name": "Reggie Bush",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 24088,
+    "name": "Aaron Hernandez",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 7847,
+    "name": "Owen Daniels",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8504,
+    "name": "Ahmad Bradshaw",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8781,
+    "name": "Darren McFadden",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9271,
+    "name": "Darrius Heyward-Bey",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7774,
+    "name": "Santonio Holmes",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 6337,
+    "name": "Carson Palmer",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 25427,
+    "name": "Dan Bailey",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 3727,
+    "name": "Adam Vinatieri",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 100003,
+    "name": "Chicago",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  },
+  {
+    "player_id": 100006,
+    "name": "Dallas",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "BN"
+  }
+]

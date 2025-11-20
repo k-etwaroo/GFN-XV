@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 8780,
+    "name": "Matt Ryan",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 24793,
+    "name": "Julio Jones",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 9293,
+    "name": "Hakeem Nicks",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8821,
+    "name": "Matt Forte",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 25883,
+    "name": "Alfred Morris",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 7847,
+    "name": "Owen Daniels",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 6762,
+    "name": "Larry Fitzgerald",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8277,
+    "name": "Dwayne Bowe",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 23996,
+    "name": "Jermaine Gresham",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8561,
+    "name": "Pierre Thomas",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 24932,
+    "name": "Jacquizz Rodgers",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 25730,
+    "name": "Kendall Wright",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 25742,
+    "name": "David Wilson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 26534,
+    "name": "Justin Tucker",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100009,
+    "name": "Green Bay",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  },
+  {
+    "player_id": 100019,
+    "name": "New York",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "BN"
+  }
+]

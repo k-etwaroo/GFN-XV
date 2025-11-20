@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "359.l.285789.t.11",
+    "name": "My Cousin Kirk",
+    "rank": 1,
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1558.75",
+    "points_against": 1439.3100000000002
+  },
+  {
+    "team_key": "359.l.285789.t.9",
+    "name": "Titsburgh Feelers",
+    "rank": 2,
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1515.38",
+    "points_against": 1527.5600000000004
+  },
+  {
+    "team_key": "359.l.285789.t.10",
+    "name": "Boom Squad",
+    "rank": 3,
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "10",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".769"
+    },
+    "streak": {
+      "type": "win",
+      "value": "4"
+    },
+    "points_for": "1658.87",
+    "points_against": 1376.7399999999998
+  },
+  {
+    "team_key": "359.l.285789.t.12",
+    "name": "Team Romo",
+    "rank": 4,
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "win",
+      "value": "6"
+    },
+    "points_for": "1476.68",
+    "points_against": 1430.2200000000003
+  },
+  {
+    "team_key": "359.l.285789.t.4",
+    "name": "Zeke-a Virus",
+    "rank": 5,
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1544.70",
+    "points_against": 1480.42
+  },
+  {
+    "team_key": "359.l.285789.t.2",
+    "name": "Ya down with O.T.T",
+    "rank": 6,
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1533.07",
+    "points_against": 1435.6399999999999
+  },
+  {
+    "team_key": "359.l.285789.t.3",
+    "name": "AnnexationPuertoRico",
+    "rank": 7,
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1502.92",
+    "points_against": 1534.43
+  },
+  {
+    "team_key": "359.l.285789.t.1",
+    "name": "Fitzmagic",
+    "rank": 8,
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1498.11",
+    "points_against": 1390.24
+  },
+  {
+    "team_key": "359.l.285789.t.8",
+    "name": "THE TAMPA 2",
+    "rank": 9,
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "2",
+      "losses": "11",
+      "ties": 0,
+      "percentage": ".154"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1288.37",
+    "points_against": 1572.9599999999998
+  },
+  {
+    "team_key": "359.l.285789.t.7",
+    "name": "Watch the Throne \ud83d\udc40",
+    "rank": 10,
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1370.78",
+    "points_against": 1415.0099999999998
+  },
+  {
+    "team_key": "359.l.285789.t.6",
+    "name": "SingleBroFucknHoes",
+    "rank": 11,
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1464.36",
+    "points_against": 1463.23
+  },
+  {
+    "team_key": "359.l.285789.t.5",
+    "name": "ManningHam N' Cheese",
+    "rank": 12,
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "3",
+      "losses": "10",
+      "ties": 0,
+      "percentage": ".231"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "9"
+    },
+    "points_for": "1206.80",
+    "points_against": 1553.0300000000002
+  }
+]

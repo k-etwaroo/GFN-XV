@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 6624,
+    "name": "Tony Romo",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 8256,
+    "name": "Calvin Johnson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 7203,
+    "name": "Roddy White",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8801,
+    "name": "Chris Johnson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 24858,
+    "name": "DeMarco Murray",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 6663,
+    "name": "Antonio Gates",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 24017,
+    "name": "Rob Gronkowski",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8813,
+    "name": "Jordy Nelson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9039,
+    "name": "BenJarvus Green-Ellis",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8790,
+    "name": "Jonathan Stewart",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8810,
+    "name": "Donnie Avery",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7760,
+    "name": "Jay Cutler",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 4587,
+    "name": "David Akers",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 6558,
+    "name": "Josh Brown",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 100016,
+    "name": "Minnesota",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  },
+  {
+    "player_id": 100004,
+    "name": "Cincinnati",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "BN"
+  }
+]

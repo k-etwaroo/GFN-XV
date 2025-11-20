@@ -1,0 +1,1444 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/414.l.321722/scoreboard;week=13",
+    "league": [
+      {
+        "league_key": "414.l.321722",
+        "league_id": "321722",
+        "name": "GFN XII",
+        "url": "https://football.fantasysports.yahoo.com/2022/f1/321722",
+        "logo_url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/4ce5ea0e3fbee30cb8e07033d631df72e2121611ce36a96961695e5f127627fc.png",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "17",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1673508390",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "406_185056",
+        "renewed": "423_132892",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 17,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "17",
+        "start_week": "1",
+        "start_date": "2022-09-08",
+        "end_week": "17",
+        "end_date": "2023-01-03",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2022"
+      },
+      {
+        "scoreboard": {
+          "week": "13",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=1&mid2=3",
+                  "matchup_recap_title": "Back-and-forth battle ends with Ed Money May Be Right coming back to knock off Sauce'n on you in 111.02-107.42 duel",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.1",
+                        "grade": "C+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.3",
+                        "grade": "C+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.3",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Sauce'n on you"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/115f1cbe68221c5f19b90f4b8a6d4987698376989165a6ef15df0599a3799090.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 1
+                            },
+                            [],
+                            {
+                              "waiver_priority": 12
+                            },
+                            {
+                              "faab_balance": "2"
+                            },
+                            {
+                              "number_of_moves": 55
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "751",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "107.42"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "121.86"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "Ed Money May Be Right"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_12.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            {
+                              "faab_balance": "40"
+                            },
+                            {
+                              "number_of_moves": 18
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "Kenneth Smith",
+                                    "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "686",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "111.02"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "125.48"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=2&mid2=6",
+                  "matchup_recap_title": "Got a Chubb-ie come back to hand Boom Squad third consecutive loss, 110.97-105.43",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.2",
+                        "grade": "B"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.6",
+                        "grade": "C+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.6",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "Boom Squad"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/2"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 7
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            {
+                              "faab_balance": "9"
+                            },
+                            {
+                              "number_of_moves": 30
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 197
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "2",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "697",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "105.43"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "107.30"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "Got a Chubb-ie"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/6"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 3
+                            },
+                            {
+                              "faab_balance": "3"
+                            },
+                            {
+                              "number_of_moves": 23
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "6",
+                                    "nickname": "Chris D",
+                                    "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+                                    "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+                                    "felo_score": "631",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "110.93"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "119.87"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=4&mid2=11",
+                  "matchup_recap_title": "Ex Sucks but my Younghoe Koo find way to defeat Dow Jones I A 33 95.38-82.30 despite coming up short of expectations",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.4",
+                        "grade": "D"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.11",
+                        "grade": "C"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.11",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.4"
+                            },
+                            {
+                              "team_id": "4"
+                            },
+                            {
+                              "name": "Dow Jones I A 33"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/4"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24661409764_6bfe4570fe.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 6
+                            },
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            {
+                              "faab_balance": "8"
+                            },
+                            {
+                              "number_of_moves": 33
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 199
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "4",
+                                    "nickname": "tony",
+                                    "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "638",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "82.30"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "118.07"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.11"
+                            },
+                            {
+                              "team_id": "11"
+                            },
+                            {
+                              "name": "Ex Sucks but my Younghoe Koo"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/11"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_t.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 11
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            {
+                              "faab_balance": "3"
+                            },
+                            {
+                              "number_of_moves": 30
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "11",
+                                    "nickname": "Steph",
+                                    "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "606",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "95.38"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "111.45"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=5&mid2=8",
+                  "matchup_recap_title": "Flutie and the Blowfish outperform predictions, defeat Just-End-The-Season in 155.81-128.51 beatdown",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.5",
+                        "grade": "A+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.8",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.5",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.5"
+                            },
+                            {
+                              "team_id": "5"
+                            },
+                            {
+                              "name": "Flutie and the Blowfish"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/5"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2394859f30991302ac5fb51e62c7be5dc4f1b7149f66be86f65ac0e8d259702a.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 12
+                            },
+                            [],
+                            {
+                              "waiver_priority": 2
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 53
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "5",
+                                    "nickname": "Brian",
+                                    "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+                                    "image_url": "https://s.yimg.com/ag/images/6df94d9d-8e53-40e8-aa57-0dee75c97eddwJ_64sq.jpg",
+                                    "felo_score": "820",
+                                    "felo_tier": "platinum"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "155.81"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "121.17"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.8"
+                            },
+                            {
+                              "team_id": "8"
+                            },
+                            {
+                              "name": "Just-End-The-Season"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/8"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 8
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 29
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 196
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "8",
+                                    "nickname": "mlapone",
+                                    "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+                                    "image_url": "https://s.yimg.com/ag/images/4564/39085801456_bdd683_64sq.jpg",
+                                    "felo_score": "728",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "128.51"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "123.30"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "4": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=7&mid2=10",
+                  "matchup_recap_title": "Ottoman Empire beat projections, knock off The Hurts Locker, 149.55-133.17",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.7",
+                        "grade": "A"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.10",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "The Hurts Locker"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36090284201_bd1095.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 4
+                            },
+                            [],
+                            {
+                              "waiver_priority": 4
+                            },
+                            {
+                              "faab_balance": "2"
+                            },
+                            {
+                              "number_of_moves": 36
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 199
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "Edward Shively",
+                                    "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "738",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "133.17"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "114.74"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "Ottoman Empire"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 3
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            {
+                              "faab_balance": "7"
+                            },
+                            {
+                              "number_of_moves": 23
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "peterO",
+                                    "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "815",
+                                    "felo_tier": "platinum"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "149.55"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "125.01"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "5": {
+                "matchup": {
+                  "week": "13",
+                  "week_start": "2022-11-29",
+                  "week_end": "2022-12-05",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2022/f1/321722/recap?week=13&mid1=9&mid2=12",
+                  "matchup_recap_title": "Offensively challenged ManningHam N' Cheese come back to beat The FaZe Clan, 90.79-79.54",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.9",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "414.l.321722.t.12",
+                        "grade": "D"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "414.l.321722.t.9",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.9"
+                            },
+                            {
+                              "team_id": "9"
+                            },
+                            {
+                              "name": "ManningHam N' Cheese"
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/9"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 9
+                            },
+                            [],
+                            {
+                              "waiver_priority": 7
+                            },
+                            {
+                              "faab_balance": "5"
+                            },
+                            {
+                              "number_of_moves": 17
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 191
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "9",
+                                    "nickname": "Kevinchie",
+                                    "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+                                    "is_current_login": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "598",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "90.79"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "114.38"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "414.l.321722.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "Jeff Driskel isn\u2019t a Tight End"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2022/f1/321722/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/067dc1da0e144bd7b5ca5b90f0ac9a1f7f1113ec68cbb5362860a79d156666c4.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 10
+                            },
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            {
+                              "faab_balance": "13"
+                            },
+                            {
+                              "number_of_moves": 34
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Joshua",
+                                    "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "572",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "79.54"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "13",
+                              "total": "115.32"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 6
+            }
+          }
+        }
+      }
+    ],
+    "time": "797.46413230896ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

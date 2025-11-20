@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "461.l.23054.t.5",
+    "name": "FDIC Crew",
+    "rank": "1",
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".727"
+    },
+    "streak": {
+      "type": "win",
+      "value": "6"
+    },
+    "points_for": "1399.30",
+    "points_against": 1174.57
+  },
+  {
+    "team_key": "461.l.23054.t.11",
+    "name": "Flutie and the Blowfish",
+    "rank": "2",
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".727"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1370.79",
+    "points_against": 1290.6100000000001
+  },
+  {
+    "team_key": "461.l.23054.t.12",
+    "name": "Hayes Brigade",
+    "rank": "3",
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".727"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1359.59",
+    "points_against": 1265.11
+  },
+  {
+    "team_key": "461.l.23054.t.10",
+    "name": "Nacua Matata",
+    "rank": "4",
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".727"
+    },
+    "streak": {
+      "type": "win",
+      "value": "4"
+    },
+    "points_for": "1347.41",
+    "points_against": 1264.47
+  },
+  {
+    "team_key": "461.l.23054.t.6",
+    "name": "The Warren Brothers",
+    "rank": "5",
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".545"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1354.16",
+    "points_against": 1347.5500000000002
+  },
+  {
+    "team_key": "461.l.23054.t.9",
+    "name": "ManningHam N' Cheese",
+    "rank": "6",
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".455"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "5"
+    },
+    "points_for": "1271.98",
+    "points_against": 1166.74
+  },
+  {
+    "team_key": "461.l.23054.t.3",
+    "name": "Ottoman Empire",
+    "rank": "7",
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".455"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1221.32",
+    "points_against": 1354.9299999999998
+  },
+  {
+    "team_key": "461.l.23054.t.8",
+    "name": "Boom Squad",
+    "rank": "8",
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".455"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1204.82",
+    "points_against": 1191.6999999999998
+  },
+  {
+    "team_key": "461.l.23054.t.4",
+    "name": "Koo and the Gang",
+    "rank": "9",
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".455"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1179.35",
+    "points_against": 1245.62
+  },
+  {
+    "team_key": "461.l.23054.t.1",
+    "name": "Dr. Fields Good",
+    "rank": "10",
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".364"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1355.30",
+    "points_against": 1375.34
+  },
+  {
+    "team_key": "461.l.23054.t.7",
+    "name": "Just-End-The-Season",
+    "rank": "11",
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "2",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".182"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1115.20",
+    "points_against": 1308.51
+  },
+  {
+    "team_key": "461.l.23054.t.2",
+    "name": "Shambles",
+    "rank": "12",
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "2",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".182"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "9"
+    },
+    "points_for": "1099.85",
+    "points_against": 1293.92
+  }
+]

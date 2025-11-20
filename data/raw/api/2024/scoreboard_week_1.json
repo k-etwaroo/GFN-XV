@@ -1,0 +1,1444 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/449.l.62560/scoreboard;week=1",
+    "league": [
+      {
+        "league_key": "449.l.62560",
+        "league_id": "62560",
+        "name": "GFN XIV",
+        "url": "https://football.fantasysports.yahoo.com/2024/f1/62560",
+        "logo_url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/89046f3ad781858133266282f46131092bc51751a7ab2b4b34eb461ef14556c9.png",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "17",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1736409327",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "423_132892",
+        "renewed": "461_23054",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 17,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "17",
+        "start_week": "1",
+        "start_date": "2024-09-05",
+        "end_week": "17",
+        "end_date": "2024-12-30",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2024"
+      },
+      {
+        "scoreboard": {
+          "week": "1",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=1&mid2=5",
+                  "matchup_recap_title": "Nothing washes away the taste of defeat like gameday food. Order now on Uber Eats.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.1",
+                        "grade": "C-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.5",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.5",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Armed Rodgery"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/55591092624a3ff3cb8de0cd43acc1194dbe1e740f56714de9f15d9fc4a880c1.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 2
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 31
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "779",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "105.48"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "111.44"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.5"
+                            },
+                            {
+                              "team_id": "5"
+                            },
+                            {
+                              "name": "FDIC Crew"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/5"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 4
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            {
+                              "faab_balance": "19"
+                            },
+                            {
+                              "number_of_moves": 38
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "5",
+                                    "nickname": "tony",
+                                    "guid": "ETCIM4DSHDIAJAKTR5AT6BFIWY",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "786",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "108.00"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "110.29"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=2&mid2=11",
+                  "matchup_recap_title": "Celebrate with Uber Eats, the official on-demand delivery partner of the NFL.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.2",
+                        "grade": "B"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.11",
+                        "grade": "D+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.2",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "LaPorta Potty"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/2"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 10
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 17
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "2",
+                                    "nickname": "Chris D",
+                                    "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+                                    "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+                                    "felo_score": "574",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "93.45"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "110.87"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.11"
+                            },
+                            {
+                              "team_id": "11"
+                            },
+                            {
+                              "name": "Flutie and the Blowfish"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/11"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/9113e92225e253720681d06531805b50001bb36d0867838caf4669ef50aa50e9.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 12
+                            },
+                            {
+                              "faab_balance": "14"
+                            },
+                            {
+                              "number_of_moves": 26
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "11",
+                                    "nickname": "Brian",
+                                    "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+                                    "image_url": "https://s.yimg.com/ag/images/6df94d9d-8e53-40e8-aa57-0dee75c97eddwJ_64sq.jpg",
+                                    "felo_score": "851",
+                                    "felo_tier": "platinum"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "81.11"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "106.95"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=3&mid2=9",
+                  "matchup_recap_title": "Nothing washes away the taste of defeat like gameday food. Order now on Uber Eats.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.3",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.9",
+                        "grade": "A-"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.9",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "Ottoman Empire"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 1
+                            },
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            {
+                              "faab_balance": "3"
+                            },
+                            {
+                              "number_of_moves": 31
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "peterO",
+                                    "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "832",
+                                    "felo_tier": "platinum"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "124.05"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "113.15"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.9"
+                            },
+                            {
+                              "team_id": "9"
+                            },
+                            {
+                              "name": "ManningHam N' Cheese"
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/9"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 11
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            {
+                              "faab_balance": "12"
+                            },
+                            {
+                              "number_of_moves": 14
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 198
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "9",
+                                    "nickname": "Kevinchie",
+                                    "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+                                    "is_current_login": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "672",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "124.76"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "106.84"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=4&mid2=8",
+                  "matchup_recap_title": "Nothing washes away the taste of defeat like gameday food. Order now on Uber Eats.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.4",
+                        "grade": "D+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.8",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.8",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.4"
+                            },
+                            {
+                              "team_id": "4"
+                            },
+                            {
+                              "name": "Deep Dish Flavor"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/4"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 3
+                            },
+                            [],
+                            {
+                              "waiver_priority": 3
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "4",
+                                    "nickname": "Kenneth Smith",
+                                    "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "725",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "91.32"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "89.78"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.8"
+                            },
+                            {
+                              "team_id": "8"
+                            },
+                            {
+                              "name": "Boom Squad"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/8"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 9
+                            },
+                            [],
+                            {
+                              "waiver_priority": 7
+                            },
+                            {
+                              "faab_balance": "8"
+                            },
+                            {
+                              "number_of_moves": 20
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "8",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "593",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "125.15"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "104.05"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "4": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=6&mid2=10",
+                  "matchup_recap_title": "Nothing washes away the taste of defeat like gameday food. Order now on Uber Eats.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.6",
+                        "grade": "D-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.10",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "The Hibernators"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/6"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 7
+                            },
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            {
+                              "faab_balance": "20"
+                            },
+                            {
+                              "number_of_moves": 15
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 192
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "6",
+                                    "nickname": "Edward Shively",
+                                    "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "718",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "77.35"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "109.32"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "Cooper Kupp my Balls"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/780e082a54c451cbebd2dccf2291d38c8ab0c1b324a700f36697b5b8602074f4.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 12
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            {
+                              "faab_balance": "0"
+                            },
+                            {
+                              "number_of_moves": 43
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "Joshua",
+                                    "guid": "UTRAVJ74I3XSTYRO3UZUNFW3PA",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "570",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "127.36"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "106.63"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "5": {
+                "matchup": {
+                  "week": "1",
+                  "week_start": "2024-09-05",
+                  "week_end": "2024-09-09",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2024/f1/62560/recap?week=1&mid1=7&mid2=12",
+                  "matchup_recap_title": "Nothing washes away the taste of defeat like gameday food. Order now on Uber Eats.",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.7",
+                        "grade": "D"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "449.l.62560.t.12",
+                        "grade": "A"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "449.l.62560.t.12",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "Just-End-The-Season"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 8
+                            },
+                            {
+                              "faab_balance": "28"
+                            },
+                            {
+                              "number_of_moves": 22
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 200
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "mlapone",
+                                    "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+                                    "image_url": "https://s.yimg.com/ag/images/4564/39085801456_bdd683_64sq.jpg",
+                                    "felo_score": "664",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "89.19"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "113.57"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "449.l.62560.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "Hayes Brigade"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2024/f1/62560/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 6
+                            },
+                            [],
+                            {
+                              "waiver_priority": 4
+                            },
+                            {
+                              "faab_balance": "37"
+                            },
+                            {
+                              "number_of_moves": 27
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 18,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 0
+                            },
+                            {
+                              "auction_budget_total": "200"
+                            },
+                            {
+                              "auction_budget_spent": 191
+                            },
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Christopher",
+                                    "guid": "NB2LPJVUM4XNNPYQZC42NZUYNE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "548",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "121.78"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "1",
+                              "total": "108.39"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 6
+            }
+          }
+        }
+      }
+    ],
+    "time": "331.40802383423ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

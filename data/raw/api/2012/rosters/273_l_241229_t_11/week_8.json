@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 6624,
+    "name": "Tony Romo",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 8001,
+    "name": "Marques Colston",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8332,
+    "name": "James Jones",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8266,
+    "name": "Marshawn Lynch",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 9317,
+    "name": "LeSean McCoy",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 7206,
+    "name": "Heath Miller",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 25880,
+    "name": "Vick Ballard",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9274,
+    "name": "Michael Crabtree",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8795,
+    "name": "Joe Flacco",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7801,
+    "name": "Greg Jennings",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7544,
+    "name": "Lance Moore",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8285,
+    "name": "Greg Olsen",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8739,
+    "name": "Jackie Battle",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 4587,
+    "name": "David Akers",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100021,
+    "name": "Philadelphia",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  },
+  {
+    "player_id": 100004,
+    "name": "Cincinnati",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "BN"
+  }
+]

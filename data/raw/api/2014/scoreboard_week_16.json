@@ -1,0 +1,955 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/331.l.145833/scoreboard;week=16",
+    "league": [
+      {
+        "league_key": "331.l.145833",
+        "league_id": "145833",
+        "name": "GOODell FOR NOTHIN'",
+        "url": "https://football.fantasysports.yahoo.com/2014/f1/145833",
+        "logo_url": false,
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "16",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1420098611",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "314_214310",
+        "renewed": "348_225929",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 16,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "16",
+        "start_week": "1",
+        "start_date": "2014-09-04",
+        "end_week": "16",
+        "end_date": "2014-12-22",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2014"
+      },
+      {
+        "scoreboard": {
+          "week": "16",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2014-12-16",
+                  "week_end": "2014-12-22",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "1",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/recap?week=16&mid1=1&mid2=3",
+                  "matchup_recap_title": "Consolation: Genocologist Finishes Strong Against Noodle Knee III",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.1",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.3",
+                        "grade": "D"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "331.l.145833.t.1",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Genocologist"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24663342574_7e85319cab.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 10
+                            },
+                            [],
+                            {
+                              "waiver_priority": 7
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/1/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "704",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "90.87"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "112.95"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "Noodle Knee III"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 3
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/3/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "Chris D",
+                                    "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+                                    "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+                                    "felo_score": "544",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "69.10"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "95.60"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2014-12-16",
+                  "week_end": "2014-12-22",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/recap?week=16&mid1=2&mid2=6",
+                  "matchup_recap_title": "Championship: DaMaryius Targaryen Pulls Off Comeback over Jeffrey Football",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.2",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.6",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "331.l.145833.t.6",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "Jeffrey Football"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/2"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            [],
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/2/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "2",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "857",
+                                    "felo_tier": "platinum"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "113.47"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "151.65"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "DaMaryius Targaryen"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/6"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708304443_2d4592351b.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 1
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/6/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "6",
+                                    "nickname": "peterO",
+                                    "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "758",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "124.74"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "137.56"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2014-12-16",
+                  "week_end": "2014-12-22",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "1",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/recap?week=16&mid1=4&mid2=7",
+                  "matchup_recap_title": "Consolation: Brown Gets Late Shocker over Titsburgh Feelers",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.4",
+                        "grade": "A"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.7",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "331.l.145833.t.4",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.4"
+                            },
+                            {
+                              "team_id": "4"
+                            },
+                            {
+                              "name": "Brown"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/4"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            [],
+                            {
+                              "number_of_moves": 10
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/4/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "4",
+                                    "nickname": "Tom",
+                                    "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "698",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "131.32"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "105.13"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "Titsburgh Feelers"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/7/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "Steph",
+                                    "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "596",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "119.38"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "123.41"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2014-12-16",
+                  "week_end": "2014-12-22",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/recap?week=16&mid1=10&mid2=12",
+                  "matchup_recap_title": "Consolation: Jacob's Team Wins Against THE TAMPA 2",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.10",
+                        "grade": "B"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "331.l.145833.t.12",
+                        "grade": "C"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "331.l.145833.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "Jacob's Team"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 3
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/10/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "--hidden--",
+                                    "guid": "--",
+                                    "felo_score": "692",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "123.83"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "134.17"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "331.l.145833.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "THE TAMPA 2"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_2.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 6
+                            },
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            [],
+                            {
+                              "number_of_moves": 8
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/12/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Kevin",
+                                    "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+                                    "image_url": "https://s.yimg.com/ag/images/4566/38726656651_bae4ac_64sq.jpg",
+                                    "felo_score": "733",
+                                    "felo_tier": "gold"
+                                  }
+                                },
+                                {
+                                  "manager": {
+                                    "manager_id": "13",
+                                    "nickname": "Chad",
+                                    "guid": "3B7LCASSQJCVRTTSMJMRIHFORI",
+                                    "is_comanager": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "575",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "110.82"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "140.09"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 4
+            }
+          }
+        }
+      }
+    ],
+    "time": "646.97194099426ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

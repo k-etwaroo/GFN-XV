@@ -1,0 +1,162 @@
+[
+  {
+    "player_id": 6624,
+    "name": "Tony Romo",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "QB"
+  },
+  {
+    "player_id": 8813,
+    "name": "Jordy Nelson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 8256,
+    "name": "Calvin Johnson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "WR"
+  },
+  {
+    "player_id": 9276,
+    "name": "Knowshon Moreno",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 7241,
+    "name": "Frank Gore",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "RB"
+  },
+  {
+    "player_id": 24017,
+    "name": "Rob Gronkowski",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "TE"
+  },
+  {
+    "player_id": 24822,
+    "name": "Andy Dalton",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "QB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 7924,
+    "name": "Delanie Walker",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "TE"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8801,
+    "name": "Chris Johnson",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 24858,
+    "name": "DeMarco Murray",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 24935,
+    "name": "Denarius Moore",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 8810,
+    "name": "Donnie Avery",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "WR"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9039,
+    "name": "BenJarvus Green-Ellis",
+    "status": "",
+    "position_type": "O",
+    "eligible_positions": [
+      "RB"
+    ],
+    "selected_position": "BN"
+  },
+  {
+    "player_id": 9520,
+    "name": "Ryan Succop",
+    "status": "",
+    "position_type": "K",
+    "eligible_positions": [
+      "K"
+    ],
+    "selected_position": "K"
+  },
+  {
+    "player_id": 100018,
+    "name": "New Orleans",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "DEF"
+  },
+  {
+    "player_id": 100004,
+    "name": "Cincinnati",
+    "status": "",
+    "position_type": "DT",
+    "eligible_positions": [
+      "DEF"
+    ],
+    "selected_position": "BN"
+  }
+]

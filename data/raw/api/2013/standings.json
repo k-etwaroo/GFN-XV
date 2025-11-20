@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "314.l.214310.t.2",
+    "name": "Kaep N Krunch",
+    "rank": 1,
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1539.60",
+    "points_against": 1535.23
+  },
+  {
+    "team_key": "314.l.214310.t.12",
+    "name": "Titsburgh Feelers",
+    "rank": 2,
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "9",
+      "losses": "4",
+      "ties": 0,
+      "percentage": ".692"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1867.87",
+    "points_against": 1676.0600000000002
+  },
+  {
+    "team_key": "314.l.214310.t.3",
+    "name": "Gang Green",
+    "rank": 3,
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "9",
+      "losses": "4",
+      "ties": 0,
+      "percentage": ".692"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1618.93",
+    "points_against": 1472.02
+  },
+  {
+    "team_key": "314.l.214310.t.4",
+    "name": "No LUCK Needed 4 RG3",
+    "rank": 4,
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1721.20",
+    "points_against": 1530.59
+  },
+  {
+    "team_key": "314.l.214310.t.9",
+    "name": "Jacob's Team",
+    "rank": 5,
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "win",
+      "value": "4"
+    },
+    "points_for": "1716.99",
+    "points_against": 1460.0399999999997
+  },
+  {
+    "team_key": "314.l.214310.t.7",
+    "name": "THE TAMPA 2",
+    "rank": 6,
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "9",
+      "losses": "4",
+      "ties": 0,
+      "percentage": ".692"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1577.27",
+    "points_against": 1561.41
+  },
+  {
+    "team_key": "314.l.214310.t.11",
+    "name": "Stop Drop N Rolle",
+    "rank": 7,
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1519.49",
+    "points_against": 1509.42
+  },
+  {
+    "team_key": "314.l.214310.t.8",
+    "name": "Brown",
+    "rank": 8,
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1425.81",
+    "points_against": 1531.6299999999997
+  },
+  {
+    "team_key": "314.l.214310.t.6",
+    "name": "BroSwithZsameHoe",
+    "rank": 9,
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".308"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "6"
+    },
+    "points_for": "1437.81",
+    "points_against": 1659.03
+  },
+  {
+    "team_key": "314.l.214310.t.1",
+    "name": "Buttfumblers",
+    "rank": 10,
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".385"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1500.34",
+    "points_against": 1582.8700000000003
+  },
+  {
+    "team_key": "314.l.214310.t.5",
+    "name": "StartedFromDAbottom",
+    "rank": 11,
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".308"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1593.64",
+    "points_against": 1731.3300000000002
+  },
+  {
+    "team_key": "314.l.214310.t.10",
+    "name": "BlameObama",
+    "rank": 12,
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "3",
+      "losses": "10",
+      "ties": 0,
+      "percentage": ".231"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1485.25",
+    "points_against": 1754.57
+  }
+]

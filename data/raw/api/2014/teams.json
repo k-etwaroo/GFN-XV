@@ -1,0 +1,488 @@
+{
+  "331.l.145833.t.6": {
+    "team_key": "331.l.145833.t.6",
+    "team_id": "6",
+    "name": "DaMaryius Targaryen",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/6",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708304443_2d4592351b.jpg"
+        }
+      }
+    ],
+    "previous_season_team_rank": 1,
+    "waiver_priority": 11,
+    "number_of_moves": 12,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/6/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "6",
+          "nickname": "peterO",
+          "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "758",
+          "felo_tier": "gold"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.2": {
+    "team_key": "331.l.145833.t.2",
+    "team_id": "2",
+    "name": "Jeffrey Football",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/2",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+        }
+      }
+    ],
+    "waiver_priority": 9,
+    "number_of_moves": 12,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/2/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "2",
+          "nickname": "JEff",
+          "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+          "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+          "felo_score": "857",
+          "felo_tier": "platinum"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.10": {
+    "team_key": "331.l.145833.t.10",
+    "team_id": "10",
+    "name": "Jacob's Team",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/10",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 5,
+    "waiver_priority": 3,
+    "number_of_moves": 11,
+    "number_of_trades": "4",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/10/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "10",
+          "nickname": "--hidden--",
+          "guid": "--",
+          "felo_score": "692",
+          "felo_tier": "silver"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.12": {
+    "team_key": "331.l.145833.t.12",
+    "team_id": "12",
+    "name": "THE TAMPA 2",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/12",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_2.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 6,
+    "waiver_priority": 6,
+    "number_of_moves": 8,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B-",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/12/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "12",
+          "nickname": "Kevin",
+          "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+          "image_url": "https://s.yimg.com/ag/images/4566/38726656651_bae4ac_64sq.jpg",
+          "felo_score": "733",
+          "felo_tier": "gold"
+        }
+      },
+      {
+        "manager": {
+          "manager_id": "13",
+          "nickname": "Chad",
+          "guid": "3B7LCASSQJCVRTTSMJMRIHFORI",
+          "is_comanager": "1",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "575",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.9": {
+    "team_key": "331.l.145833.t.9",
+    "team_id": "9",
+    "name": "ManningHam N' Cheese",
+    "is_owned_by_current_login": 1,
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/9",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 11,
+    "waiver_priority": 12,
+    "number_of_moves": 10,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/9/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "9",
+          "nickname": "Kevinchie",
+          "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+          "is_current_login": "1",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "581",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.11": {
+    "team_key": "331.l.145833.t.11",
+    "team_id": "11",
+    "name": "Tears of Boston",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/11",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_3.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 12,
+    "waiver_priority": 4,
+    "number_of_moves": 12,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "clinched_playoffs": 1,
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "C+",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/11/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "11",
+          "nickname": "Kenneth Smith",
+          "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "571",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.4": {
+    "team_key": "331.l.145833.t.4",
+    "team_id": "4",
+    "name": "Brown",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/4",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 8,
+    "waiver_priority": 5,
+    "number_of_moves": 10,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/4/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "4",
+          "nickname": "Tom",
+          "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "698",
+          "felo_tier": "silver"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.7": {
+    "team_key": "331.l.145833.t.7",
+    "team_id": "7",
+    "name": "Titsburgh Feelers",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/7",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 2,
+    "waiver_priority": 1,
+    "number_of_moves": 11,
+    "number_of_trades": "4",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/7/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "7",
+          "nickname": "Steph",
+          "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "596",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.1": {
+    "team_key": "331.l.145833.t.1",
+    "team_id": "1",
+    "name": "Genocologist",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/1",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24663342574_7e85319cab.jpg"
+        }
+      }
+    ],
+    "previous_season_team_rank": 10,
+    "waiver_priority": 7,
+    "number_of_moves": 12,
+    "number_of_trades": "2",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B-",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/1/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "1",
+          "nickname": "Lee",
+          "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+          "is_commissioner": "1",
+          "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+          "felo_score": "704",
+          "felo_tier": "gold"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.3": {
+    "team_key": "331.l.145833.t.3",
+    "team_id": "3",
+    "name": "Noodle Knee III",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/3",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 3,
+    "waiver_priority": 10,
+    "number_of_moves": 12,
+    "number_of_trades": "3",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "C+",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/3/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "3",
+          "nickname": "Chris D",
+          "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+          "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+          "felo_score": "544",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.8": {
+    "team_key": "331.l.145833.t.8",
+    "team_id": "8",
+    "name": "BroSwithZsameHoe",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/8",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_11.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 9,
+    "waiver_priority": 2,
+    "number_of_moves": 8,
+    "number_of_trades": 0,
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "B",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/8/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "8",
+          "nickname": "Scott",
+          "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "581",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  },
+  "331.l.145833.t.5": {
+    "team_key": "331.l.145833.t.5",
+    "team_id": "5",
+    "name": "Ya-Ya Smalls",
+    "url": "https://football.fantasysports.yahoo.com/2014/f1/145833/5",
+    "team_logos": [
+      {
+        "team_logo": {
+          "size": "large",
+          "url": "https://s.yimg.com/dh/ap/fantasy/img/profile_96.png"
+        }
+      }
+    ],
+    "previous_season_team_rank": 4,
+    "waiver_priority": 8,
+    "number_of_moves": 12,
+    "number_of_trades": "3",
+    "roster_adds": {
+      "coverage_type": "week",
+      "coverage_value": 17,
+      "value": "0"
+    },
+    "league_scoring_type": "head",
+    "has_draft_grade": 1,
+    "draft_grade": "C",
+    "draft_recap_url": "https://football.fantasysports.yahoo.com/2014/f1/145833/5/draftrecap",
+    "managers": [
+      {
+        "manager": {
+          "manager_id": "5",
+          "nickname": "Edward Shively",
+          "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+          "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+          "felo_score": "588",
+          "felo_tier": "bronze"
+        }
+      }
+    ]
+  }
+}

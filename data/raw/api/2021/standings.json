@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "406.l.185056.t.1",
+    "name": "Stairway to Tevin",
+    "rank": 1,
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "9",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".643"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1649.28",
+    "points_against": 1611.4499999999998
+  },
+  {
+    "team_key": "406.l.185056.t.3",
+    "name": "NoCholoImSolo",
+    "rank": 2,
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".571"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1572.76",
+    "points_against": 1466.8999999999996
+  },
+  {
+    "team_key": "406.l.185056.t.10",
+    "name": "Ottoman Empire",
+    "rank": 3,
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "11",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".786"
+    },
+    "streak": {
+      "type": "win",
+      "value": "4"
+    },
+    "points_for": "1875.10",
+    "points_against": 1517.52
+  },
+  {
+    "team_key": "406.l.185056.t.7",
+    "name": "Fitz n Chips",
+    "rank": 4,
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".571"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1683.53",
+    "points_against": 1617.31
+  },
+  {
+    "team_key": "406.l.185056.t.8",
+    "name": "Just-End-The-Season",
+    "rank": 5,
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".571"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1602.98",
+    "points_against": 1552.75
+  },
+  {
+    "team_key": "406.l.185056.t.4",
+    "name": "Twas da nite Alvin ruined Xmas",
+    "rank": 6,
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "9",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".643"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1618.59",
+    "points_against": 1510.1000000000001
+  },
+  {
+    "team_key": "406.l.185056.t.2",
+    "name": "Boom Squad",
+    "rank": 7,
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".357"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1479.95",
+    "points_against": 1582.5399999999997
+  },
+  {
+    "team_key": "406.l.185056.t.6",
+    "name": "Got a Chubb-ie",
+    "rank": 8,
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".429"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1617.21",
+    "points_against": 1678.96
+  },
+  {
+    "team_key": "406.l.185056.t.9",
+    "name": "ManningHam N' Cheese",
+    "rank": 9,
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".429"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1595.90",
+    "points_against": 1658.8500000000001
+  },
+  {
+    "team_key": "406.l.185056.t.11",
+    "name": "I have Staff",
+    "rank": 10,
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "10",
+      "ties": 0,
+      "percentage": ".286"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1473.20",
+    "points_against": 1684.56
+  },
+  {
+    "team_key": "406.l.185056.t.12",
+    "name": "HurtInaCarr CallWilliamMattar",
+    "rank": 11,
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".357"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1521.61",
+    "points_against": 1662.8999999999999
+  },
+  {
+    "team_key": "406.l.185056.t.5",
+    "name": "PSquared*",
+    "rank": 12,
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".357"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "6"
+    },
+    "points_for": "1567.43",
+    "points_against": 1713.7
+  }
+]

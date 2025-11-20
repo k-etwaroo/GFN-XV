@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "423.l.132892.t.3",
+    "name": "Ottoman Empire",
+    "rank": 1,
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "11",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".786"
+    },
+    "streak": {
+      "type": "win",
+      "value": "8"
+    },
+    "points_for": "1815.66",
+    "points_against": 1478.1399999999999
+  },
+  {
+    "team_key": "423.l.132892.t.7",
+    "name": "Just-End-The-Season",
+    "rank": 2,
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "10",
+      "losses": "4",
+      "ties": 0,
+      "percentage": ".714"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1770.87",
+    "points_against": 1403.61
+  },
+  {
+    "team_key": "423.l.132892.t.4",
+    "name": "James Conner Who?",
+    "rank": 3,
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "10",
+      "losses": "4",
+      "ties": 0,
+      "percentage": ".714"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1675.25",
+    "points_against": 1517.6699999999998
+  },
+  {
+    "team_key": "423.l.132892.t.5",
+    "name": "Just-in Fields is HIM",
+    "rank": 4,
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".500"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1537.89",
+    "points_against": 1566.22
+  },
+  {
+    "team_key": "423.l.132892.t.1",
+    "name": "A Kill Lee\u2019s Tendon",
+    "rank": 5,
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".571"
+    },
+    "streak": {
+      "type": "win",
+      "value": "3"
+    },
+    "points_for": "1572.89",
+    "points_against": 1496.8700000000001
+  },
+  {
+    "team_key": "423.l.132892.t.8",
+    "name": "Hee Hee Rhamondra!",
+    "rank": 6,
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".500"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1492.47",
+    "points_against": 1430.7
+  },
+  {
+    "team_key": "423.l.132892.t.6",
+    "name": "HOWELLitzer TANK",
+    "rank": 7,
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "10",
+      "ties": 0,
+      "percentage": ".286"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1497.91",
+    "points_against": 1649.4899999999998
+  },
+  {
+    "team_key": "423.l.132892.t.12",
+    "name": "Flutie and the Blowfish",
+    "rank": 8,
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".429"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1478.03",
+    "points_against": 1734.41
+  },
+  {
+    "team_key": "423.l.132892.t.9",
+    "name": "Boom Squad",
+    "rank": 9,
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".429"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "3"
+    },
+    "points_for": "1503.58",
+    "points_against": 1597.68
+  },
+  {
+    "team_key": "423.l.132892.t.2",
+    "name": "Rodgers Hurts",
+    "rank": 10,
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".429"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1522.87",
+    "points_against": 1659.9399999999998
+  },
+  {
+    "team_key": "423.l.132892.t.10",
+    "name": "ManningHam N' Cheese",
+    "rank": 11,
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "9",
+      "ties": 0,
+      "percentage": ".357"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1487.55",
+    "points_against": 1687.2099999999998
+  },
+  {
+    "team_key": "423.l.132892.t.11",
+    "name": "JD",
+    "rank": 12,
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "4",
+      "losses": "10",
+      "ties": 0,
+      "percentage": ".286"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1469.47",
+    "points_against": 1602.4999999999998
+  }
+]

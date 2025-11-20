@@ -1,304 +1,297 @@
-from yahoo_oauth import OAuth2
-import yahoo_fantasy_api as yfa
-import pandas as pd
-from datetime import datetime
 import os
+import json
+import time
+import argparse
+import pandas as pd
+import requests
+from yahoo_oauth import OAuth2
+from tqdm import tqdm
 
-# ===============================================================
-# CONFIGURATION
-# ===============================================================
-LEAGUE_KEY = "461.l.23054"
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
 
-print("[Auth] 🔐 Loading OAuth2 credentials...")
-sc = OAuth2(None, None, from_file="oauth2.json")
-print("[Auth] ✅ OAuth2 loaded successfully")
+LEAGUE_KEY = "461.l.23054"
+YEAR = 2025
+BASE_URL = "https://fantasysports.yahooapis.com/fantasy/v2"
 
-gm = yfa.Game(sc, "nfl")
-game_id = gm.game_id()
-lg = gm.to_league(LEAGUE_KEY)
-settings = lg.settings()
-current_year = int(settings.get("season", datetime.now().year))
-current_week = int(settings.get("current_week", 1))
-num_weeks = int(settings.get("end_week", 17))
 
-print(f"[League] Using league {LEAGUE_KEY}")
-print(f"[League] Year: {current_year}, Current Week: {current_week}, Total Weeks: {num_weeks}")
-
-# ===============================================================
-# TEAM METADATA
-# ===============================================================
-teams_data = lg.teams()
-if isinstance(teams_data, dict):
-    teams_data = teams_data.values()
-
-team_metadata = {}
-for t in teams_data:
-    manager_info = t.get("managers", [{}])[0].get("manager", {})
-    team_metadata[t["team_key"]] = {
-        "team_name": t.get("name", "Unknown"),
-        "manager": manager_info.get("nickname", ""),
-        "logo_url": t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", ""),
-        "felo_tier": manager_info.get("felo_tier", ""),
-    }
-
-print(f"[Teams] Loaded {len(team_metadata)} teams.")
-
-# ===============================================================
-# FETCH MATCHUPS
-# ===============================================================
-yhandler = lg.yhandler
-matchup_rows = []
-
-print(f"\n[Matchups] Fetching weekly scores through week {current_week}...")
-for week in range(1, current_week + 1):
+# ------------------------------------------------------
+# Utilities
+# ------------------------------------------------------
+def safe_float(v):
     try:
-        raw = yhandler.get(f"league/{LEAGUE_KEY}/scoreboard;week={week}")
-        league_data = raw.get("fantasy_content", {}).get("league", [])
-        if len(league_data) < 2:
-            print(f"⚠️ Week {week}: No league data.")
+        return float(v)
+    except Exception:
+        return 0.0
+
+
+def save_json(obj, path):
+    with open(path, "w") as f:
+        json.dump(obj, f, indent=2)
+
+
+def auth_headers(sc):
+    return {"Authorization": f"Bearer {sc.access_token}"}
+
+
+def get_json(sc, url, debug_name=None, debug=False):
+    r = requests.get(url, headers=auth_headers(sc))
+    if r.status_code == 401:
+        raise PermissionError("Unauthorized (401)")
+    r.raise_for_status()
+    data = r.json()
+    if debug and debug_name:
+        save_json(data, os.path.join(DATA_DIR, f"{debug_name}.json"))
+    return data
+
+
+# ------------------------------------------------------
+# Weekly scores
+# ------------------------------------------------------
+def parse_team_block(team_block):
+    """Extract team name, total points, and projected points."""
+    name, points, proj = "", 0.0, 0.0
+    if not isinstance(team_block, list) or not team_block:
+        return name, points, proj
+
+    info = team_block[0]
+    if isinstance(info, list):
+        for d in info:
+            if isinstance(d, dict) and "name" in d:
+                name = d["name"]
+                break
+
+    for d in team_block[1:]:
+        if isinstance(d, dict) and "team_points" in d:
+            points = safe_float(d["team_points"].get("total", 0))
+        if isinstance(d, dict) and "team_projected_points" in d:
+            proj = safe_float(d["team_projected_points"].get("total", 0))
+
+    return name, points, proj
+
+
+def fetch_scores(sc, league_key, current_week, debug=False):
+    """Fetch weekly matchups and scores."""
+    all_rows = []
+    print("📊 Fetching weekly matchups...")
+
+    for week in tqdm(range(1, current_week + 1), desc="Weekly Scores"):
+        url = f"{BASE_URL}/league/{league_key}/scoreboard;week={week}?format=json"
+        data = get_json(sc, url, debug_name=f"debug_week{week}" if debug else None, debug=debug)
+
+        try:
+            league = data["fantasy_content"]["league"]
+            scoreboard = league[1]["scoreboard"]
+            sb0 = scoreboard.get("0", scoreboard)
+            matchups = sb0.get("matchups", {})
+            count = int(sb0.get("count", len(matchups)))
+        except Exception as e:
+            print(f"⚠️  Week {week} structure error: {e}")
             continue
 
-        scoreboard = league_data[1].get("scoreboard", {})
-        matchups = (
-            scoreboard.get("0", {}).get("matchups", {}) or  # ✅ FIXED PATH
-            scoreboard.get("matchups", {})
-        )
-
+        print(f"--- Week {week} ({count} matchups) ---")
         if not matchups:
-            print(f"⚠️ Week {week}: No matchups found.")
             continue
 
-        # handle both dict-style and list-style matchups
-        for mk, matchup_data in matchups.items():
-            if not isinstance(matchup_data, dict) or "matchup" not in matchup_data:
-                continue
+        for i in matchups.keys():
+            try:
+                matchup = matchups[i]["matchup"]
+                teams = matchup["0"]["teams"]
+                t1 = teams["0"]["team"]
+                t2 = teams["1"]["team"]
 
-            matchup = matchup_data["matchup"]
-            teams_section = matchup.get("0", {}).get("teams") or matchup.get("teams", {})
-            if not isinstance(teams_section, dict):
-                continue
+                t1_name, t1_pts, t1_proj = parse_team_block(t1)
+                t2_name, t2_pts, t2_proj = parse_team_block(t2)
 
-            team_entries = [
-                v["team"]
-                for v in teams_section.values()
-                if isinstance(v, dict) and "team" in v
-            ]
-            if len(team_entries) != 2:
-                continue
+                print(f"🏆 {t1_name} ({t1_pts}) vs {t2_name} ({t2_pts})")
 
-            def parse_team_block(block):
-                team_key = None
-                team_name = "Unknown"
-                points_actual = 0.0
-                points_proj = 0.0
+                all_rows.extend([
+                    {"season": YEAR, "week": week, "team_name": t1_name, "points": t1_pts, "projected": t1_proj},
+                    {"season": YEAR, "week": week, "team_name": t2_name, "points": t2_pts, "projected": t2_proj},
+                ])
+            except Exception as e:
+                print(f"⚠️  Week {week} matchup parse error: {e}")
 
-                def deep_iter(d):
-                    """Recursively yield all nested dicts from lists or dicts."""
-                    if isinstance(d, dict):
-                        yield d
-                        for v in d.values():
-                            yield from deep_iter(v)
-                    elif isinstance(d, list):
-                        for i in d:
-                            yield from deep_iter(i)
+        time.sleep(0.2)
 
-                for item in deep_iter(block):
-                    if "team_key" in item:
-                        team_key = item["team_key"]
-                    if "name" in item:
-                        team_name = item["name"]
-                    if "team_points" in item:
-                        points_actual = float(item["team_points"].get("total", 0))
-                    if "team_projected_points" in item:
-                        points_proj = float(item["team_projected_points"].get("total", 0))
+    return pd.DataFrame(all_rows)
 
-                meta = team_metadata.get(team_key, {})
-                return {
-                    "team": team_name or meta.get("team_name", "Unknown"),
-                    "manager": meta.get("manager", ""),
-                    "felo_tier": meta.get("felo_tier", ""),
-                    "logo_url": meta.get("logo_url", ""),
-                    "points_actual": points_actual,
-                    "points_proj": points_proj,
-                }
-            tA = parse_team_block(team_entries[0])
-            tB = parse_team_block(team_entries[1])
 
-            matchup_rows.extend([
-                {
-                    "season": current_year,
-                    "week": week,
-                    "team": tA["team"],
-                    "manager": tA["manager"],
-                    "felo_tier": tA["felo_tier"],
-                    "logo_url": tA["logo_url"],
-                    "opponent": tB["team"],
-                    "points_for": tA["points_actual"],
-                    "points_against": tB["points_actual"],
-                    "projected_points": tA["points_proj"],
-                },
-                {
-                    "season": current_year,
-                    "week": week,
-                    "team": tB["team"],
-                    "manager": tB["manager"],
-                    "felo_tier": tB["felo_tier"],
-                    "logo_url": tB["logo_url"],
-                    "opponent": tA["team"],
-                    "points_for": tB["points_actual"],
-                    "points_against": tA["points_actual"],
-                    "projected_points": tB["points_proj"],
-                },
-            ])
-        print(f"✅ Week {week}: {len(matchups)} matchups processed.")
+# ------------------------------------------------------
+# Team logos
+# ------------------------------------------------------
+def fetch_teams(sc, league_key, debug=False):
+    """Fetch league team names and logos."""
+    url = f"{BASE_URL}/league/{league_key}/teams?format=json"
+    data = get_json(sc, url, debug_name="debug_teams" if debug else None, debug=debug)
+    teams_data = data.get("fantasy_content", {}).get("league", [{}])[1].get("teams", {})
+    team_logos = {}
 
-    except Exception as e:
-        print(f"⚠️ Error week {week}: {e}")
+    for tid, val in teams_data.items():
+        if not tid.isdigit():
+            continue
+        team_entry = val.get("team", [])
+        if not team_entry:
+            continue
+        info = team_entry[0]
+        if isinstance(info, list):
+            name, logo = "", ""
+            for item in info:
+                if "name" in item:
+                    name = item["name"]
+                if "team_logos" in item:
+                    logos = item["team_logos"]
+                    if logos and "team_logo" in logos[0]:
+                        logo = logos[0]["team_logo"]["url"]
+            if name:
+                team_logos[name] = logo
+    return team_logos
 
-# Export team scores
-scores_df = pd.DataFrame(matchup_rows)
-scores_out = os.path.join(DATA_DIR, f"scores_{current_year}.csv")
-scores_df.to_csv(scores_out, index=False)
-print(f"\n[Export] ✅ Team scores written to {scores_out}")
 
-# ===============================================================
-# PLAYER STATS (limited for private leagues)
-# ===============================================================
-print(f"\n[Players] Fetching player rosters through week {current_week}...")
-players = []
+# ------------------------------------------------------
+# Player stats (fixed roster parsing)
+# ------------------------------------------------------
+def fetch_player_stats(sc, league_key, current_week):
+    """Fetch team rosters (player names, positions, logos)."""
+    print("\n👥 Fetching rosters...")
 
-for t in teams_data:
-    team_key = t.get("team_key")
-    team_name = t.get("name", "Unknown")
-    manager_info = t.get("managers", [{}])[0].get("manager", {})
-    manager = manager_info.get("nickname", "")
-    logo_url = t.get("team_logos", [{}])[0].get("team_logo", {}).get("url", "")
+    all_players = []
+    teams_url = f"{BASE_URL}/league/{league_key}/teams?format=json"
+    r = requests.get(teams_url, headers=auth_headers(sc))
+    teams_data = (
+        r.json()
+        .get("fantasy_content", {})
+        .get("league", [{}])[1]
+        .get("teams", {})
+    )
 
-    try:
-        t_obj = lg.to_team(team_key)
-        roster = t_obj.roster(week=current_week)
-        for p in roster:
-            players.append({
-                "season": current_year,
-                "team": team_name,
-                "manager": manager,
-                "player_name": p.get("name", ""),
-                "position": p.get("selected_position", ""),
-                "eligible_positions": ", ".join(p.get("eligible_positions", [])),
-                "week": current_week,
-                "logo_url": logo_url,
-                "manager_image": manager_info.get("image_url", ""),
-                "manager_felo": manager_info.get("felo_tier", ""),
-            })
-    except Exception as e:
-        if "denied" in str(e):
-            print(f"🚫 Skipping private team: {team_name}")
-        else:
-            print(f"⚠️ Error fetching {team_name}: {e}")
+    for tid, t in teams_data.items():
+        if not tid.isdigit():
+            continue
+        team_entry = t.get("team", [])
+        if not team_entry:
+            continue
 
-if players:
-    players_df = pd.DataFrame(players)
-    players_out = os.path.join(DATA_DIR, f"player_stats_{current_year}.csv")
-    players_df.to_csv(players_out, index=False)
-    print(f"[Export] ✅ Player stats written to {players_out}")
-else:
-    print("⚠️ No player stats exported (private league)")
+        team_name, team_logo, team_key = "", "", ""
+        manager_name, manager_img = "", ""
+        for item in team_entry[0]:
+            if isinstance(item, dict):
+                if "team_key" in item:
+                    team_key = item["team_key"]
+                elif "name" in item:
+                    team_name = item["name"]
+                elif "team_logos" in item:
+                    logos = item["team_logos"]
+                    if isinstance(logos, list) and "team_logo" in logos[0]:
+                        team_logo = logos[0]["team_logo"].get("url", "")
+                if "managers" in item:
+                    managers = item["managers"]
+                    if isinstance(managers, list) and "manager" in managers[0]:
+                        m = managers[0]["manager"]
+                        manager_name = m.get("nickname", "")
+                        manager_img = m.get("image_url", "")
 
-# ===============================================================
-# 🏈 SCOREBOARD PREVIEW (colorized with actual + projected)
-# ===============================================================
-print("\n🏈 [Preview] Latest Matchups Summary:")
+        print(f"\n📦 {team_name}")
 
-def color_text(text, color):
-    """Return colored terminal text using ANSI escape codes."""
-    colors = {
-        "green": "\033[92m",  # bright green
-        "red": "\033[91m",    # bright red
-        "white": "\033[97m",  # white / neutral
-        "reset": "\033[0m",
-    }
-    return f"{colors.get(color, '')}{text}{colors['reset']}"
+        for week in range(1, current_week + 1):
+            try:
+                roster_url = f"{BASE_URL}/team/{team_key}/roster;week={week}?format=json"
+                rr = requests.get(roster_url, headers=auth_headers(sc))
+                data = rr.json()
 
-if not matchup_rows:
-    print("⚠️ No matchups parsed. Try again during an active week.")
-else:
-    df = pd.DataFrame(matchup_rows)
-    df = df.groupby(
-        ["week", "team", "opponent", "manager", "points_for", "points_against", "projected_points"],
-        as_index=False
-    ).first()
+                team_data = data.get("fantasy_content", {}).get("team", [])
+                if len(team_data) < 2:
+                    print(f"⚠️  {team_name} week {week} roster missing team_data block.")
+                    continue
 
-    summary_rows = []  # for CSV export
-    for week in sorted(df["week"].unique()):
-        print(f"\n--- Week {week} ---")
-        week_df = df[df["week"] == week]
-        seen = set()
-
-        for _, row in week_df.iterrows():
-            matchup_key = tuple(sorted([row["team"], row["opponent"]]))
-            if matchup_key in seen:
-                continue
-            seen.add(matchup_key)
-
-            opp_row = week_df[
-                (week_df["team"] == row["opponent"]) & (week_df["opponent"] == row["team"])
-            ]
-            if not opp_row.empty:
-                opp_points = opp_row.iloc[0]["points_for"]
-                opp_proj = opp_row.iloc[0]["projected_points"]
-            else:
-                opp_points, opp_proj = 0.0, 0.0
-
-            # Determine colors (based on actual > 0 or projected)
-            if row["points_for"] > 0 or opp_points > 0:
-                if abs(row["points_for"] - opp_points) < 0.5:
-                    color_team = color_opp = "white"
-                elif row["points_for"] > opp_points:
-                    color_team, color_opp = "green", "red"
+                roster_root = team_data[1].get("roster", {})
+                # Handle nested formats
+                if "players" in roster_root:
+                    roster = roster_root["players"]
+                elif "0" in roster_root and "players" in roster_root["0"]:
+                    roster = roster_root["0"]["players"]
                 else:
-                    color_team, color_opp = "red", "green"
-            else:
-                if abs(row["projected_points"] - opp_proj) < 0.5:
-                    color_team = color_opp = "white"
-                elif row["projected_points"] > opp_proj:
-                    color_team, color_opp = "green", "red"
-                else:
-                    color_team, color_opp = "red", "green"
+                    roster = {}
 
-            team_str = color_text(f"{row['team']} ({row['manager']})", color_team)
-            opp_str = color_text(f"{row['opponent']}", color_opp)
+                count = int(roster_root.get("count", len(roster)))
+                print(f"  • Week {week}: found {count} players")
 
-            # Terminal display
-            print(
-                f"{team_str} vs {opp_str} → "
-                f"Actual: {row['points_for']:.1f} / {opp_points:.1f} | "
-                f"Proj: {row['projected_points']:.1f} / {opp_proj:.1f}"
-            )
+                for i in range(count):
+                    player_entry = roster.get(str(i), {}).get("player", [])
+                    if not player_entry:
+                        continue
 
-            # CSV-friendly row (no color codes)
-            summary_rows.append({
-                "season": current_year,
-                "week": week,
-                "team": row["team"],
-                "manager": row["manager"],
-                "opponent": row["opponent"],
-                "points_for": round(row["points_for"], 2),
-                "points_against": round(opp_points, 2),
-                "projected_for": round(row["projected_points"], 2),
-                "projected_against": round(opp_proj, 2),
-            })
+                    player_info = {}
+                    # Flatten nested player info
+                    for block in player_entry[0]:
+                        if isinstance(block, dict):
+                            player_info.update(block)
 
-    # --- Export CSV Summary ---
-    summary_df = pd.DataFrame(summary_rows)
-    summary_path = f"data/matchup_summary_{current_year}.csv"
-    summary_df.to_csv(summary_path, index=False)
-    print(f"\n[Export] 🗂️ Matchup summary written to {summary_path}")
+                    player_name = player_info.get("name", {}).get("full", "")
+                    position = player_info.get("display_position", "")
+                    nfl_team = player_info.get("editorial_team_abbr", "")
+                    bye_week = player_info.get("bye_weeks", {}).get("week", "")
 
-print("\n🎉 Done! Data ready for Streamlit.")
-# --- Record last updated time ---
-from datetime import datetime
-with open("data/last_updated.txt", "w") as f:
-    f.write(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-print("\n🕓 Timestamp written to data/last_updated.txt")
+                    if not player_name:
+                        continue
+
+                    all_players.append({
+                        "season": YEAR,
+                        "week": week,
+                        "team_name": team_name,
+                        "team_logo": team_logo,
+                        "manager_name": manager_name,
+                        "manager_img": manager_img,
+                        "player_name": player_name,
+                        "position": position,
+                        "nfl_team": nfl_team,
+                        "bye_week": bye_week,
+                    })
+
+            except Exception as e:
+                print(f"⚠️  {team_name} week {week} roster error: {e}")
+                continue
+
+    df_players = pd.DataFrame(all_players)
+    df_players.to_csv(os.path.join(DATA_DIR, f"player_stats_{YEAR}.csv"), index=False)
+    print(f"\n[Export] ✅ Saved {len(df_players)} player rows → data/player_stats_{YEAR}.csv")
+    return df_players
+
+
+# ------------------------------------------------------
+# Main entry point
+# ------------------------------------------------------
+def main(debug=False):
+    print(f"\n🏈 Fetching Yahoo data for {YEAR} — League {LEAGUE_KEY}")
+    sc = OAuth2(None, None, from_file="oauth2.json")
+    if not sc.token_is_valid():
+        sc.refresh_access_token()
+
+    meta_url = f"{BASE_URL}/league/{LEAGUE_KEY}/scoreboard?format=json"
+    meta_data = get_json(sc, meta_url)
+    league_info = meta_data["fantasy_content"]["league"][0]
+    league_name = league_info["name"]
+    current_week = int(league_info["current_week"])
+    print(f"[Info] {league_name} | {current_week} active weeks\n")
+
+    # --- Scores ---
+    df_scores = fetch_scores(sc, LEAGUE_KEY, current_week, debug=debug)
+    df_scores.to_csv(os.path.join(DATA_DIR, f"scores_{YEAR}.csv"), index=False)
+    print(f"\n[Export] ✅ Saved {len(df_scores)} rows → data/scores_{YEAR}.csv")
+
+    # --- Player stats ---
+    df_players = fetch_player_stats(sc, LEAGUE_KEY, current_week)
+
+    # --- Team logos ---
+    team_logos = fetch_teams(sc, LEAGUE_KEY, debug=debug)
+    save_json(team_logos, os.path.join(DATA_DIR, "team_logos.json"))
+    print(f"[Export] ✅ Saved {len(team_logos)} team logos → data/team_logos.json")
+
+    print("\n🎉 Done! Data ready for Streamlit.")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--debug", action="store_true", help="Enable debug JSON export")
+    args = parser.parse_args()
+    main(debug=args.debug)

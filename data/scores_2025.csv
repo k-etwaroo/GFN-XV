@@ -1,85 +1,169 @@
-season,week,team,manager,felo_tier,logo_url,opponent,points_for,points_against,projected_points
-2025,1,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,Just-End-The-Season,148.53,112.45,113.08
-2025,1,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,Dr. Fields Good,112.45,148.53,113.21
-2025,1,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,Ottoman Empire,122.07,81.65,118.31
-2025,1,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,Shambles,81.65,122.07,118.1
-2025,1,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,The Warren Brothers,101.25,113.11,115.05
-2025,1,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,Koo and the Gang,113.11,101.25,113.33
-2025,1,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Boom Squad,92.52,82.6,116.69
-2025,1,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,FDIC Crew,82.6,92.52,102.95
-2025,1,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Hayes Brigade,114.2,115.86,114.02
-2025,1,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,ManningHam N' Cheese,115.86,114.2,122.3
-2025,1,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Flutie and the Blowfish,90.23,120.17,115.61
-2025,1,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,Nacua Matata,120.17,90.23,115.04
-2025,2,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,Shambles,91.45,122.07,117.33
-2025,2,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,Dr. Fields Good,122.07,91.45,119.04
-2025,2,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,Koo and the Gang,72.22,102.5,93.79
-2025,2,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,Ottoman Empire,102.5,72.22,119.21
-2025,2,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Nacua Matata,130.33,134.34,117.96
-2025,2,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,FDIC Crew,134.34,130.33,118.98
-2025,2,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,Flutie and the Blowfish,119.62,139.25,119.8
-2025,2,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,The Warren Brothers,139.25,119.62,125.8
-2025,2,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,ManningHam N' Cheese,91.57,92.87,112.57
-2025,2,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Just-End-The-Season,92.87,91.57,118.52
-2025,2,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Hayes Brigade,99.03,121.12,114.01
-2025,2,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,Boom Squad,121.12,99.03,115.0
-2025,3,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,Koo and the Gang,122.74,123.77,113.61
-2025,3,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,Dr. Fields Good,123.77,122.74,111.87
-2025,3,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,ManningHam N' Cheese,74.09,145.06,94.06
-2025,3,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Shambles,145.06,74.09,116.22
-2025,3,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,The Warren Brothers,106.33,99.45,118.75
-2025,3,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,Ottoman Empire,99.45,106.33,121.92
-2025,3,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Flutie and the Blowfish,133.43,111.53,113.64
-2025,3,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,FDIC Crew,111.53,133.43,116.69
-2025,3,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,Boom Squad,86.21,82.55,108.52
-2025,3,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Just-End-The-Season,82.55,86.21,114.33
-2025,3,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Hayes Brigade,163.56,131.84,122.16
-2025,3,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,Nacua Matata,131.84,163.56,121.33
-2025,4,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,Ottoman Empire,163.59,163.72,119.21
-2025,4,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,Dr. Fields Good,163.72,163.59,115.4
-2025,4,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,Boom Squad,105.58,113.71,96.15
-2025,4,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Shambles,113.71,105.58,115.43
-2025,4,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,ManningHam N' Cheese,73.45,109.68,100.86
-2025,4,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Koo and the Gang,109.68,73.45,104.23
-2025,4,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,The Warren Brothers,116.94,127.4,115.1
-2025,4,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,FDIC Crew,127.4,116.94,114.51
-2025,4,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,Nacua Matata,93.67,169.88,99.84
-2025,4,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Just-End-The-Season,169.88,93.67,121.77
-2025,4,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,Hayes Brigade,116.22,111.11,113.1
-2025,4,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,Flutie and the Blowfish,111.11,116.22,112.31
-2025,5,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,The Warren Brothers,120.16,108.25,113.23
-2025,5,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,Dr. Fields Good,108.25,120.16,111.14
-2025,5,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,Nacua Matata,107.66,118.38,91.04
-2025,5,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Shambles,118.38,107.66,107.99
-2025,5,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,ManningHam N' Cheese,123.95,146.58,106.47
-2025,5,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Ottoman Empire,146.58,123.95,103.15
-2025,5,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,Boom Squad,106.35,110.25,102.66
-2025,5,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Koo and the Gang,110.25,106.35,94.8
-2025,5,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Hayes Brigade,118.19,140.35,112.0
-2025,5,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,FDIC Crew,140.35,118.19,96.24
-2025,5,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,Flutie and the Blowfish,115.27,129.08,101.66
-2025,5,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,Just-End-The-Season,129.08,115.27,117.09
-2025,6,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,ManningHam N' Cheese,100.35,139.59,109.21
-2025,6,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,Dr. Fields Good,139.59,100.35,122.29
-2025,6,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,Flutie and the Blowfish,101.62,123.68,93.94
-2025,6,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,Shambles,123.68,101.62,111.55
-2025,6,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,Boom Squad,96.38,114.17,110.47
-2025,6,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Ottoman Empire,114.17,96.38,94.7
-2025,6,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,Nacua Matata,116.86,92.49,98.25
-2025,6,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Koo and the Gang,92.49,116.86,116.26
-2025,6,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Just-End-The-Season,115.11,91.04,108.92
-2025,6,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,FDIC Crew,91.04,115.11,93.3
-2025,6,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,Hayes Brigade,114.37,138.31,117.95
-2025,6,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,The Warren Brothers,138.31,114.37,114.16
-2025,7,Dr. Fields Good,Lee,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2a95e7f171da9407fc3eb2f703f960407bfdf7ca4739b334624a160dc53b0418.png,Boom Squad,0.0,0.0,94.15
-2025,7,Boom Squad,JEff,silver,https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png,Dr. Fields Good,0.0,0.0,100.82
-2025,7,Shambles,Chris D,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg,FDIC Crew,0.0,0.0,98.85
-2025,7,FDIC Crew,tony,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/da1d5331f6fc65187f86f6a1c2c301fc0b950739f4ab9fd1ca4c613213a12d3f.png,Shambles,0.0,0.0,109.17
-2025,7,Ottoman Empire,peterO,gold,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/3cbd811242f77a48a5925a0c93b2ba5473021507d1455bb6d35b7788dcaae08a.png,Nacua Matata,0.0,0.0,102.55
-2025,7,Nacua Matata,Joshua,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/53508e6ea2f02683db4351e9edcfe5eabe56676abec9ece01e04f6a9f4418b85.jpg,Ottoman Empire,0.0,0.0,100.36
-2025,7,Koo and the Gang,Kenneth Smith,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png,Flutie and the Blowfish,0.0,0.0,89.36
-2025,7,Flutie and the Blowfish,Brian,platinum,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/69c1b57f6f141eb28ca227f475d1bd836d70cf42100f4bd125f52c90bce76e5a.png,Koo and the Gang,0.0,0.0,107.69
-2025,7,The Warren Brothers,Edward Shively,silver,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/38b72730b2ef3b5ebabe983498f932c4fc0b9d5af68d06137f5442a22d6e2e0d.jpg,ManningHam N' Cheese,0.0,0.0,111.39
-2025,7,ManningHam N' Cheese,Kevinchie,gold,https://s.yimg.com/cv/apiv2/default/nfl/nfl_6_k.png,The Warren Brothers,0.0,0.0,114.05
-2025,7,Just-End-The-Season,mlapone,bronze,https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg,Hayes Brigade,0.0,0.0,109.38
-2025,7,Hayes Brigade,Christopher,bronze,https://s.yimg.com/cv/apiv2/default/nfl/nfl_5_c.png,Just-End-The-Season,0.0,0.0,102.12
+season,league_id,league_key,week,team_key,team_id,team,manager,opponent,opponent_key,points_for,points_against,is_playoffs,is_consolation,felo_tier,felo_score,league_felo_tier
+2025,23054,461.l.23054,1,461.l.23054.t.1,1,Dr. Fields Good,Lee,Just-End-The-Season,461.l.23054.t.7,148.53,112.45,False,False,gold,736,silver
+2025,23054,461.l.23054,1,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Dr. Fields Good,461.l.23054.t.1,112.45,148.53,False,False,bronze,580,silver
+2025,23054,461.l.23054,1,461.l.23054.t.2,2,Shambles,Chris D,Ottoman Empire,461.l.23054.t.3,122.07,81.65,False,False,bronze,550,silver
+2025,23054,461.l.23054,1,461.l.23054.t.3,3,Ottoman Empire,peterO,Shambles,461.l.23054.t.2,81.65,122.07,False,False,silver,676,silver
+2025,23054,461.l.23054,1,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,The Warren Brothers,461.l.23054.t.6,101.25,113.11,False,False,silver,648,silver
+2025,23054,461.l.23054,1,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Koo and the Gang,461.l.23054.t.4,113.11,101.25,False,False,gold,737,silver
+2025,23054,461.l.23054,1,461.l.23054.t.5,5,FDIC Crew,tony,Boom Squad,461.l.23054.t.8,92.52,82.6,False,False,platinum,840,silver
+2025,23054,461.l.23054,1,461.l.23054.t.8,8,Boom Squad,JEff,FDIC Crew,461.l.23054.t.5,82.6,92.52,False,False,silver,623,silver
+2025,23054,461.l.23054,1,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Hayes Brigade,461.l.23054.t.12,114.2,115.86,False,False,silver,694,silver
+2025,23054,461.l.23054,1,461.l.23054.t.12,12,Hayes Brigade,Christopher,ManningHam N' Cheese,461.l.23054.t.9,115.86,114.2,False,False,bronze,570,silver
+2025,23054,461.l.23054,1,461.l.23054.t.10,10,Nacua Matata,Joshua,Flutie and the Blowfish,461.l.23054.t.11,90.23,120.17,False,False,bronze,595,silver
+2025,23054,461.l.23054,1,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Nacua Matata,461.l.23054.t.10,120.17,90.23,False,False,platinum,851,silver
+2025,23054,461.l.23054,10,461.l.23054.t.1,1,Dr. Fields Good,Lee,FDIC Crew,461.l.23054.t.5,122.07,153.7,False,False,gold,736,silver
+2025,23054,461.l.23054,10,461.l.23054.t.5,5,FDIC Crew,tony,Dr. Fields Good,461.l.23054.t.1,153.7,122.07,False,False,platinum,840,silver
+2025,23054,461.l.23054,10,461.l.23054.t.2,2,Shambles,Chris D,The Warren Brothers,461.l.23054.t.6,118.68,142.4,False,False,bronze,550,silver
+2025,23054,461.l.23054,10,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Shambles,461.l.23054.t.2,142.4,118.68,False,False,gold,737,silver
+2025,23054,461.l.23054,10,461.l.23054.t.3,3,Ottoman Empire,peterO,Hayes Brigade,461.l.23054.t.12,91.27,135.09,False,False,silver,676,silver
+2025,23054,461.l.23054,10,461.l.23054.t.12,12,Hayes Brigade,Christopher,Ottoman Empire,461.l.23054.t.3,135.09,91.27,False,False,bronze,570,silver
+2025,23054,461.l.23054,10,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Just-End-The-Season,461.l.23054.t.7,122.66,113.12,False,False,silver,648,silver
+2025,23054,461.l.23054,10,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Koo and the Gang,461.l.23054.t.4,113.12,122.66,False,False,bronze,580,silver
+2025,23054,461.l.23054,10,461.l.23054.t.8,8,Boom Squad,JEff,Nacua Matata,461.l.23054.t.10,108.45,116.35,False,False,silver,623,silver
+2025,23054,461.l.23054,10,461.l.23054.t.10,10,Nacua Matata,Joshua,Boom Squad,461.l.23054.t.8,116.35,108.45,False,False,bronze,595,silver
+2025,23054,461.l.23054,10,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Flutie and the Blowfish,461.l.23054.t.11,112.97,114.35,False,False,silver,694,silver
+2025,23054,461.l.23054,10,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,ManningHam N' Cheese,461.l.23054.t.9,114.35,112.97,False,False,platinum,851,silver
+2025,23054,461.l.23054,11,461.l.23054.t.1,1,Dr. Fields Good,Lee,Hayes Brigade,461.l.23054.t.12,140.3,100.29,False,False,gold,736,silver
+2025,23054,461.l.23054,11,461.l.23054.t.12,12,Hayes Brigade,Christopher,Dr. Fields Good,461.l.23054.t.1,100.29,140.3,False,False,bronze,570,silver
+2025,23054,461.l.23054,11,461.l.23054.t.2,2,Shambles,Chris D,Koo and the Gang,461.l.23054.t.4,100.85,105.29,False,False,bronze,550,silver
+2025,23054,461.l.23054,11,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Shambles,461.l.23054.t.2,105.29,100.85,False,False,silver,648,silver
+2025,23054,461.l.23054,11,461.l.23054.t.3,3,Ottoman Empire,peterO,Just-End-The-Season,461.l.23054.t.7,97.02,86.43,False,False,silver,676,silver
+2025,23054,461.l.23054,11,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Ottoman Empire,461.l.23054.t.3,86.43,97.02,False,False,bronze,580,silver
+2025,23054,461.l.23054,11,461.l.23054.t.5,5,FDIC Crew,tony,ManningHam N' Cheese,461.l.23054.t.9,91.44,78.73,False,False,platinum,840,silver
+2025,23054,461.l.23054,11,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,FDIC Crew,461.l.23054.t.5,78.73,91.44,False,False,silver,694,silver
+2025,23054,461.l.23054,11,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Nacua Matata,461.l.23054.t.10,123.49,139.14,False,False,gold,737,silver
+2025,23054,461.l.23054,11,461.l.23054.t.10,10,Nacua Matata,Joshua,The Warren Brothers,461.l.23054.t.6,139.14,123.49,False,False,bronze,595,silver
+2025,23054,461.l.23054,11,461.l.23054.t.8,8,Boom Squad,JEff,Flutie and the Blowfish,461.l.23054.t.11,112.38,131.25,False,False,silver,623,silver
+2025,23054,461.l.23054,11,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Boom Squad,461.l.23054.t.8,131.25,112.38,False,False,platinum,851,silver
+2025,23054,461.l.23054,12,461.l.23054.t.1,1,Dr. Fields Good,Lee,Just-End-The-Season,461.l.23054.t.7,0.0,0.0,False,False,gold,736,silver
+2025,23054,461.l.23054,12,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Dr. Fields Good,461.l.23054.t.1,0.0,0.0,False,False,bronze,580,silver
+2025,23054,461.l.23054,12,461.l.23054.t.2,2,Shambles,Chris D,Ottoman Empire,461.l.23054.t.3,0.0,0.0,False,False,bronze,550,silver
+2025,23054,461.l.23054,12,461.l.23054.t.3,3,Ottoman Empire,peterO,Shambles,461.l.23054.t.2,0.0,0.0,False,False,silver,676,silver
+2025,23054,461.l.23054,12,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,The Warren Brothers,461.l.23054.t.6,0.0,0.0,False,False,silver,648,silver
+2025,23054,461.l.23054,12,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Koo and the Gang,461.l.23054.t.4,0.0,0.0,False,False,gold,737,silver
+2025,23054,461.l.23054,12,461.l.23054.t.5,5,FDIC Crew,tony,Boom Squad,461.l.23054.t.8,0.0,0.0,False,False,platinum,840,silver
+2025,23054,461.l.23054,12,461.l.23054.t.8,8,Boom Squad,JEff,FDIC Crew,461.l.23054.t.5,0.0,0.0,False,False,silver,623,silver
+2025,23054,461.l.23054,12,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Hayes Brigade,461.l.23054.t.12,0.0,0.0,False,False,silver,694,silver
+2025,23054,461.l.23054,12,461.l.23054.t.12,12,Hayes Brigade,Christopher,ManningHam N' Cheese,461.l.23054.t.9,0.0,0.0,False,False,bronze,570,silver
+2025,23054,461.l.23054,12,461.l.23054.t.10,10,Nacua Matata,Joshua,Flutie and the Blowfish,461.l.23054.t.11,0.0,0.0,False,False,bronze,595,silver
+2025,23054,461.l.23054,12,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Nacua Matata,461.l.23054.t.10,0.0,0.0,False,False,platinum,851,silver
+2025,23054,461.l.23054,13,461.l.23054.t.1,1,Dr. Fields Good,Lee,Shambles,461.l.23054.t.2,0.0,0.0,False,False,gold,736,silver
+2025,23054,461.l.23054,13,461.l.23054.t.2,2,Shambles,Chris D,Dr. Fields Good,461.l.23054.t.1,0.0,0.0,False,False,bronze,550,silver
+2025,23054,461.l.23054,13,461.l.23054.t.3,3,Ottoman Empire,peterO,Koo and the Gang,461.l.23054.t.4,0.0,0.0,False,False,silver,676,silver
+2025,23054,461.l.23054,13,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Ottoman Empire,461.l.23054.t.3,0.0,0.0,False,False,silver,648,silver
+2025,23054,461.l.23054,13,461.l.23054.t.5,5,FDIC Crew,tony,Nacua Matata,461.l.23054.t.10,0.0,0.0,False,False,platinum,840,silver
+2025,23054,461.l.23054,13,461.l.23054.t.10,10,Nacua Matata,Joshua,FDIC Crew,461.l.23054.t.5,0.0,0.0,False,False,bronze,595,silver
+2025,23054,461.l.23054,13,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Flutie and the Blowfish,461.l.23054.t.11,0.0,0.0,False,False,gold,737,silver
+2025,23054,461.l.23054,13,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,The Warren Brothers,461.l.23054.t.6,0.0,0.0,False,False,platinum,851,silver
+2025,23054,461.l.23054,13,461.l.23054.t.7,7,Just-End-The-Season,mlapone,ManningHam N' Cheese,461.l.23054.t.9,0.0,0.0,False,False,bronze,580,silver
+2025,23054,461.l.23054,13,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Just-End-The-Season,461.l.23054.t.7,0.0,0.0,False,False,silver,694,silver
+2025,23054,461.l.23054,13,461.l.23054.t.8,8,Boom Squad,JEff,Hayes Brigade,461.l.23054.t.12,0.0,0.0,False,False,silver,623,silver
+2025,23054,461.l.23054,13,461.l.23054.t.12,12,Hayes Brigade,Christopher,Boom Squad,461.l.23054.t.8,0.0,0.0,False,False,bronze,570,silver
+2025,23054,461.l.23054,14,461.l.23054.t.1,1,Dr. Fields Good,Lee,Koo and the Gang,461.l.23054.t.4,0.0,0.0,False,False,gold,736,silver
+2025,23054,461.l.23054,14,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Dr. Fields Good,461.l.23054.t.1,0.0,0.0,False,False,silver,648,silver
+2025,23054,461.l.23054,14,461.l.23054.t.2,2,Shambles,Chris D,ManningHam N' Cheese,461.l.23054.t.9,0.0,0.0,False,False,bronze,550,silver
+2025,23054,461.l.23054,14,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Shambles,461.l.23054.t.2,0.0,0.0,False,False,silver,694,silver
+2025,23054,461.l.23054,14,461.l.23054.t.3,3,Ottoman Empire,peterO,The Warren Brothers,461.l.23054.t.6,0.0,0.0,False,False,silver,676,silver
+2025,23054,461.l.23054,14,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Ottoman Empire,461.l.23054.t.3,0.0,0.0,False,False,gold,737,silver
+2025,23054,461.l.23054,14,461.l.23054.t.5,5,FDIC Crew,tony,Flutie and the Blowfish,461.l.23054.t.11,0.0,0.0,False,False,platinum,840,silver
+2025,23054,461.l.23054,14,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,FDIC Crew,461.l.23054.t.5,0.0,0.0,False,False,platinum,851,silver
+2025,23054,461.l.23054,14,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Boom Squad,461.l.23054.t.8,0.0,0.0,False,False,bronze,580,silver
+2025,23054,461.l.23054,14,461.l.23054.t.8,8,Boom Squad,JEff,Just-End-The-Season,461.l.23054.t.7,0.0,0.0,False,False,silver,623,silver
+2025,23054,461.l.23054,14,461.l.23054.t.10,10,Nacua Matata,Joshua,Hayes Brigade,461.l.23054.t.12,0.0,0.0,False,False,bronze,595,silver
+2025,23054,461.l.23054,14,461.l.23054.t.12,12,Hayes Brigade,Christopher,Nacua Matata,461.l.23054.t.10,0.0,0.0,False,False,bronze,570,silver
+2025,23054,461.l.23054,2,461.l.23054.t.1,1,Dr. Fields Good,Lee,Shambles,461.l.23054.t.2,91.45,122.07,False,False,gold,736,silver
+2025,23054,461.l.23054,2,461.l.23054.t.2,2,Shambles,Chris D,Dr. Fields Good,461.l.23054.t.1,122.07,91.45,False,False,bronze,550,silver
+2025,23054,461.l.23054,2,461.l.23054.t.3,3,Ottoman Empire,peterO,Koo and the Gang,461.l.23054.t.4,72.22,102.5,False,False,silver,676,silver
+2025,23054,461.l.23054,2,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Ottoman Empire,461.l.23054.t.3,102.5,72.22,False,False,silver,648,silver
+2025,23054,461.l.23054,2,461.l.23054.t.5,5,FDIC Crew,tony,Nacua Matata,461.l.23054.t.10,130.33,134.34,False,False,platinum,840,silver
+2025,23054,461.l.23054,2,461.l.23054.t.10,10,Nacua Matata,Joshua,FDIC Crew,461.l.23054.t.5,134.34,130.33,False,False,bronze,595,silver
+2025,23054,461.l.23054,2,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Flutie and the Blowfish,461.l.23054.t.11,119.62,139.25,False,False,gold,737,silver
+2025,23054,461.l.23054,2,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,The Warren Brothers,461.l.23054.t.6,139.25,119.62,False,False,platinum,851,silver
+2025,23054,461.l.23054,2,461.l.23054.t.7,7,Just-End-The-Season,mlapone,ManningHam N' Cheese,461.l.23054.t.9,91.57,92.87,False,False,bronze,580,silver
+2025,23054,461.l.23054,2,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Just-End-The-Season,461.l.23054.t.7,92.87,91.57,False,False,silver,694,silver
+2025,23054,461.l.23054,2,461.l.23054.t.8,8,Boom Squad,JEff,Hayes Brigade,461.l.23054.t.12,99.03,121.12,False,False,silver,623,silver
+2025,23054,461.l.23054,2,461.l.23054.t.12,12,Hayes Brigade,Christopher,Boom Squad,461.l.23054.t.8,121.12,99.03,False,False,bronze,570,silver
+2025,23054,461.l.23054,3,461.l.23054.t.1,1,Dr. Fields Good,Lee,Koo and the Gang,461.l.23054.t.4,122.74,123.77,False,False,gold,736,silver
+2025,23054,461.l.23054,3,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Dr. Fields Good,461.l.23054.t.1,123.77,122.74,False,False,silver,648,silver
+2025,23054,461.l.23054,3,461.l.23054.t.2,2,Shambles,Chris D,ManningHam N' Cheese,461.l.23054.t.9,74.09,145.06,False,False,bronze,550,silver
+2025,23054,461.l.23054,3,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Shambles,461.l.23054.t.2,145.06,74.09,False,False,silver,694,silver
+2025,23054,461.l.23054,3,461.l.23054.t.3,3,Ottoman Empire,peterO,The Warren Brothers,461.l.23054.t.6,106.33,99.45,False,False,silver,676,silver
+2025,23054,461.l.23054,3,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Ottoman Empire,461.l.23054.t.3,99.45,106.33,False,False,gold,737,silver
+2025,23054,461.l.23054,3,461.l.23054.t.5,5,FDIC Crew,tony,Flutie and the Blowfish,461.l.23054.t.11,133.43,111.53,False,False,platinum,840,silver
+2025,23054,461.l.23054,3,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,FDIC Crew,461.l.23054.t.5,111.53,133.43,False,False,platinum,851,silver
+2025,23054,461.l.23054,3,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Boom Squad,461.l.23054.t.8,86.21,82.55,False,False,bronze,580,silver
+2025,23054,461.l.23054,3,461.l.23054.t.8,8,Boom Squad,JEff,Just-End-The-Season,461.l.23054.t.7,82.55,86.21,False,False,silver,623,silver
+2025,23054,461.l.23054,3,461.l.23054.t.10,10,Nacua Matata,Joshua,Hayes Brigade,461.l.23054.t.12,163.56,131.84,False,False,bronze,595,silver
+2025,23054,461.l.23054,3,461.l.23054.t.12,12,Hayes Brigade,Christopher,Nacua Matata,461.l.23054.t.10,131.84,163.56,False,False,bronze,570,silver
+2025,23054,461.l.23054,4,461.l.23054.t.1,1,Dr. Fields Good,Lee,Ottoman Empire,461.l.23054.t.3,163.59,163.72,False,False,gold,736,silver
+2025,23054,461.l.23054,4,461.l.23054.t.3,3,Ottoman Empire,peterO,Dr. Fields Good,461.l.23054.t.1,163.72,163.59,False,False,silver,676,silver
+2025,23054,461.l.23054,4,461.l.23054.t.2,2,Shambles,Chris D,Boom Squad,461.l.23054.t.8,105.58,113.71,False,False,bronze,550,silver
+2025,23054,461.l.23054,4,461.l.23054.t.8,8,Boom Squad,JEff,Shambles,461.l.23054.t.2,113.71,105.58,False,False,silver,623,silver
+2025,23054,461.l.23054,4,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,ManningHam N' Cheese,461.l.23054.t.9,73.45,109.68,False,False,silver,648,silver
+2025,23054,461.l.23054,4,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Koo and the Gang,461.l.23054.t.4,109.68,73.45,False,False,silver,694,silver
+2025,23054,461.l.23054,4,461.l.23054.t.5,5,FDIC Crew,tony,The Warren Brothers,461.l.23054.t.6,116.94,127.4,False,False,platinum,840,silver
+2025,23054,461.l.23054,4,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,FDIC Crew,461.l.23054.t.5,127.4,116.94,False,False,gold,737,silver
+2025,23054,461.l.23054,4,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Nacua Matata,461.l.23054.t.10,93.67,169.88,False,False,bronze,580,silver
+2025,23054,461.l.23054,4,461.l.23054.t.10,10,Nacua Matata,Joshua,Just-End-The-Season,461.l.23054.t.7,169.88,93.67,False,False,bronze,595,silver
+2025,23054,461.l.23054,4,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Hayes Brigade,461.l.23054.t.12,116.22,111.11,False,False,platinum,851,silver
+2025,23054,461.l.23054,4,461.l.23054.t.12,12,Hayes Brigade,Christopher,Flutie and the Blowfish,461.l.23054.t.11,111.11,116.22,False,False,bronze,570,silver
+2025,23054,461.l.23054,5,461.l.23054.t.1,1,Dr. Fields Good,Lee,The Warren Brothers,461.l.23054.t.6,120.16,108.25,False,False,gold,736,silver
+2025,23054,461.l.23054,5,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Dr. Fields Good,461.l.23054.t.1,108.25,120.16,False,False,gold,737,silver
+2025,23054,461.l.23054,5,461.l.23054.t.2,2,Shambles,Chris D,Nacua Matata,461.l.23054.t.10,107.66,118.38,False,False,bronze,550,silver
+2025,23054,461.l.23054,5,461.l.23054.t.10,10,Nacua Matata,Joshua,Shambles,461.l.23054.t.2,118.38,107.66,False,False,bronze,595,silver
+2025,23054,461.l.23054,5,461.l.23054.t.3,3,Ottoman Empire,peterO,ManningHam N' Cheese,461.l.23054.t.9,123.95,146.58,False,False,silver,676,silver
+2025,23054,461.l.23054,5,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Ottoman Empire,461.l.23054.t.3,146.58,123.95,False,False,silver,694,silver
+2025,23054,461.l.23054,5,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Boom Squad,461.l.23054.t.8,106.35,110.25,False,False,silver,648,silver
+2025,23054,461.l.23054,5,461.l.23054.t.8,8,Boom Squad,JEff,Koo and the Gang,461.l.23054.t.4,110.25,106.35,False,False,silver,623,silver
+2025,23054,461.l.23054,5,461.l.23054.t.5,5,FDIC Crew,tony,Hayes Brigade,461.l.23054.t.12,118.19,140.35,False,False,platinum,840,silver
+2025,23054,461.l.23054,5,461.l.23054.t.12,12,Hayes Brigade,Christopher,FDIC Crew,461.l.23054.t.5,140.35,118.19,False,False,bronze,570,silver
+2025,23054,461.l.23054,5,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Flutie and the Blowfish,461.l.23054.t.11,115.27,129.08,False,False,bronze,580,silver
+2025,23054,461.l.23054,5,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Just-End-The-Season,461.l.23054.t.7,129.08,115.27,False,False,platinum,851,silver
+2025,23054,461.l.23054,6,461.l.23054.t.1,1,Dr. Fields Good,Lee,ManningHam N' Cheese,461.l.23054.t.9,100.35,139.59,False,False,gold,736,silver
+2025,23054,461.l.23054,6,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Dr. Fields Good,461.l.23054.t.1,139.59,100.35,False,False,silver,694,silver
+2025,23054,461.l.23054,6,461.l.23054.t.2,2,Shambles,Chris D,Flutie and the Blowfish,461.l.23054.t.11,101.62,123.68,False,False,bronze,550,silver
+2025,23054,461.l.23054,6,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Shambles,461.l.23054.t.2,123.68,101.62,False,False,platinum,851,silver
+2025,23054,461.l.23054,6,461.l.23054.t.3,3,Ottoman Empire,peterO,Boom Squad,461.l.23054.t.8,96.38,114.17,False,False,silver,676,silver
+2025,23054,461.l.23054,6,461.l.23054.t.8,8,Boom Squad,JEff,Ottoman Empire,461.l.23054.t.3,114.17,96.38,False,False,silver,623,silver
+2025,23054,461.l.23054,6,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Nacua Matata,461.l.23054.t.10,116.86,92.49,False,False,silver,648,silver
+2025,23054,461.l.23054,6,461.l.23054.t.10,10,Nacua Matata,Joshua,Koo and the Gang,461.l.23054.t.4,92.49,116.86,False,False,bronze,595,silver
+2025,23054,461.l.23054,6,461.l.23054.t.5,5,FDIC Crew,tony,Just-End-The-Season,461.l.23054.t.7,115.11,91.04,False,False,platinum,840,silver
+2025,23054,461.l.23054,6,461.l.23054.t.7,7,Just-End-The-Season,mlapone,FDIC Crew,461.l.23054.t.5,91.04,115.11,False,False,bronze,580,silver
+2025,23054,461.l.23054,6,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Hayes Brigade,461.l.23054.t.12,114.37,138.31,False,False,gold,737,silver
+2025,23054,461.l.23054,6,461.l.23054.t.12,12,Hayes Brigade,Christopher,The Warren Brothers,461.l.23054.t.6,138.31,114.37,False,False,bronze,570,silver
+2025,23054,461.l.23054,7,461.l.23054.t.1,1,Dr. Fields Good,Lee,Boom Squad,461.l.23054.t.8,105.36,123.06,False,False,gold,736,silver
+2025,23054,461.l.23054,7,461.l.23054.t.8,8,Boom Squad,JEff,Dr. Fields Good,461.l.23054.t.1,123.06,105.36,False,False,silver,623,silver
+2025,23054,461.l.23054,7,461.l.23054.t.2,2,Shambles,Chris D,FDIC Crew,461.l.23054.t.5,58.21,155.31,False,False,bronze,550,silver
+2025,23054,461.l.23054,7,461.l.23054.t.5,5,FDIC Crew,tony,Shambles,461.l.23054.t.2,155.31,58.21,False,False,platinum,840,silver
+2025,23054,461.l.23054,7,461.l.23054.t.3,3,Ottoman Empire,peterO,Nacua Matata,461.l.23054.t.10,137.41,115.44,False,False,silver,676,silver
+2025,23054,461.l.23054,7,461.l.23054.t.10,10,Nacua Matata,Joshua,Ottoman Empire,461.l.23054.t.3,115.44,137.41,False,False,bronze,595,silver
+2025,23054,461.l.23054,7,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Flutie and the Blowfish,461.l.23054.t.11,122.26,135.38,False,False,silver,648,silver
+2025,23054,461.l.23054,7,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Koo and the Gang,461.l.23054.t.4,135.38,122.26,False,False,platinum,851,silver
+2025,23054,461.l.23054,7,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,ManningHam N' Cheese,461.l.23054.t.9,147.83,145.22,False,False,gold,737,silver
+2025,23054,461.l.23054,7,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,The Warren Brothers,461.l.23054.t.6,145.22,147.83,False,False,silver,694,silver
+2025,23054,461.l.23054,7,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Hayes Brigade,461.l.23054.t.12,123.01,129.54,False,False,bronze,580,silver
+2025,23054,461.l.23054,7,461.l.23054.t.12,12,Hayes Brigade,Christopher,Just-End-The-Season,461.l.23054.t.7,129.54,123.01,False,False,bronze,570,silver
+2025,23054,461.l.23054,8,461.l.23054.t.1,1,Dr. Fields Good,Lee,Nacua Matata,461.l.23054.t.10,100.15,108.32,False,False,gold,736,silver
+2025,23054,461.l.23054,8,461.l.23054.t.10,10,Nacua Matata,Joshua,Dr. Fields Good,461.l.23054.t.1,108.32,100.15,False,False,bronze,595,silver
+2025,23054,461.l.23054,8,461.l.23054.t.2,2,Shambles,Chris D,Hayes Brigade,461.l.23054.t.12,88.05,112.78,False,False,bronze,550,silver
+2025,23054,461.l.23054,8,461.l.23054.t.12,12,Hayes Brigade,Christopher,Shambles,461.l.23054.t.2,112.78,88.05,False,False,bronze,570,silver
+2025,23054,461.l.23054,8,461.l.23054.t.3,3,Ottoman Empire,peterO,Flutie and the Blowfish,461.l.23054.t.11,131.12,129.76,False,False,silver,676,silver
+2025,23054,461.l.23054,8,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Ottoman Empire,461.l.23054.t.3,129.76,131.12,False,False,platinum,851,silver
+2025,23054,461.l.23054,8,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,FDIC Crew,461.l.23054.t.5,108.05,152.48,False,False,silver,648,silver
+2025,23054,461.l.23054,8,461.l.23054.t.5,5,FDIC Crew,tony,Koo and the Gang,461.l.23054.t.4,152.48,108.05,False,False,platinum,840,silver
+2025,23054,461.l.23054,8,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Just-End-The-Season,461.l.23054.t.7,120.3,98.22,False,False,gold,737,silver
+2025,23054,461.l.23054,8,461.l.23054.t.7,7,Just-End-The-Season,mlapone,The Warren Brothers,461.l.23054.t.6,98.22,120.3,False,False,bronze,580,silver
+2025,23054,461.l.23054,8,461.l.23054.t.8,8,Boom Squad,JEff,ManningHam N' Cheese,461.l.23054.t.9,134.57,92.64,False,False,silver,623,silver
+2025,23054,461.l.23054,8,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Boom Squad,461.l.23054.t.8,92.64,134.57,False,False,silver,694,silver
+2025,23054,461.l.23054,9,461.l.23054.t.1,1,Dr. Fields Good,Lee,Flutie and the Blowfish,461.l.23054.t.11,140.6,120.12,False,False,gold,736,silver
+2025,23054,461.l.23054,9,461.l.23054.t.11,11,Flutie and the Blowfish,Brian,Dr. Fields Good,461.l.23054.t.1,120.12,140.6,False,False,platinum,851,silver
+2025,23054,461.l.23054,9,461.l.23054.t.2,2,Shambles,Chris D,Just-End-The-Season,461.l.23054.t.7,100.97,104.21,False,False,bronze,550,silver
+2025,23054,461.l.23054,9,461.l.23054.t.7,7,Just-End-The-Season,mlapone,Shambles,461.l.23054.t.2,104.21,100.97,False,False,bronze,580,silver
+2025,23054,461.l.23054,9,461.l.23054.t.3,3,Ottoman Empire,peterO,FDIC Crew,461.l.23054.t.5,120.25,139.85,False,False,silver,676,silver
+2025,23054,461.l.23054,9,461.l.23054.t.5,5,FDIC Crew,tony,Ottoman Empire,461.l.23054.t.3,139.85,120.25,False,False,platinum,840,silver
+2025,23054,461.l.23054,9,461.l.23054.t.4,4,Koo and the Gang,Kenneth Smith,Hayes Brigade,461.l.23054.t.12,96.91,123.3,False,False,silver,648,silver
+2025,23054,461.l.23054,9,461.l.23054.t.12,12,Hayes Brigade,Christopher,Koo and the Gang,461.l.23054.t.4,123.3,96.91,False,False,bronze,570,silver
+2025,23054,461.l.23054,9,461.l.23054.t.6,6,The Warren Brothers,Edward Shively,Boom Squad,461.l.23054.t.8,137.94,124.05,False,False,gold,737,silver
+2025,23054,461.l.23054,9,461.l.23054.t.8,8,Boom Squad,JEff,The Warren Brothers,461.l.23054.t.6,124.05,137.94,False,False,silver,623,silver
+2025,23054,461.l.23054,9,461.l.23054.t.9,9,ManningHam N' Cheese,Kevinchie,Nacua Matata,461.l.23054.t.10,94.44,99.28,False,False,silver,694,silver
+2025,23054,461.l.23054,9,461.l.23054.t.10,10,Nacua Matata,Joshua,ManningHam N' Cheese,461.l.23054.t.9,99.28,94.44,False,False,bronze,595,silver

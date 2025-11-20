@@ -1,0 +1,1408 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/380.l.181541/scoreboard;week=6",
+    "league": [
+      {
+        "league_key": "380.l.181541",
+        "league_id": "181541",
+        "name": "GOODell FOR NOTHIN'",
+        "url": "https://football.fantasysports.yahoo.com/2018/f1/181541",
+        "logo_url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/29515337668_f1e8a6.jpg",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "16",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1546499368",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "371_13839",
+        "renewed": "390_650144",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 16,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "16",
+        "start_week": "1",
+        "start_date": "2018-09-06",
+        "end_week": "16",
+        "end_date": "2018-12-24",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2018"
+      },
+      {
+        "scoreboard": {
+          "week": "6",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=1&mid2=7",
+                  "matchup_recap_title": "NE Clam Crowder knock off Hey dArnold! in 154.89-80.22 rout",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.1",
+                        "grade": "D-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.7",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.7",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Hey dArnold!"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/42628896545_daf6d8.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 6
+                            },
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "6"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "D+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/1/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "692",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.01,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "80.22"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "128.81"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "NE Clam Crowder"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36090284201_bd1095.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 12
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/7/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "Edward Shively",
+                                    "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "729",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.99,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "154.89"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "131.76"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=2&mid2=6",
+                  "matchup_recap_title": "ManningHam N' Cheese come back to top Boom Squad in 127.03-85.22 rout",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.2",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.6",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.6",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "Boom Squad"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/2"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 4
+                            },
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "7"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/2/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "2",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "756",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "85.26"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "93.35"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "ManningHam N' Cheese"
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/6"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 10
+                            },
+                            [],
+                            {
+                              "waiver_priority": 2
+                            },
+                            [],
+                            {
+                              "number_of_moves": 10
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/6/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "6",
+                                    "nickname": "Kevinchie",
+                                    "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+                                    "is_current_login": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "588",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "127.13"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "119.57"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=3&mid2=5",
+                  "matchup_recap_title": "Just-End-The-Season hand FIGJAM third consecutive loss in 158.98-86.81 rout",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.3",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.5",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.5",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "FIGJAM"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_10.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 1
+                            },
+                            [],
+                            {
+                              "waiver_priority": 8
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "5"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "D-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/3/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "Kenneth Smith",
+                                    "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "540",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.01,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "86.81"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "95.21"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.5"
+                            },
+                            {
+                              "team_id": "5"
+                            },
+                            {
+                              "name": "Just-End-The-Season"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/5"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/36369298610_b52464.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 7
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "A",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/5/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "5",
+                                    "nickname": "mlapone",
+                                    "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+                                    "image_url": "https://s.yimg.com/ag/images/4564/39085801456_bdd683_64sq.jpg",
+                                    "felo_score": "795",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.99,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "158.98"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "133.93"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=4&mid2=12",
+                  "matchup_recap_title": "Titsburgh Feelers knock off Flutie n da Blowfish for third straight win in 157.15-109.93 rout",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.4",
+                        "grade": "B-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.12",
+                        "grade": "A"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.12",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.4"
+                            },
+                            {
+                              "team_id": "4"
+                            },
+                            {
+                              "name": "Flutie n da Blowfish"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/4"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/35118787361_8b171a.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            [],
+                            {
+                              "number_of_moves": 10
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/4/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "4",
+                                    "nickname": "Brian",
+                                    "guid": "MPYLO3KABC6M4EZHTVOD5S4VOI",
+                                    "image_url": "https://s.yimg.com/ag/images/6df94d9d-8e53-40e8-aa57-0dee75c97eddwJ_64sq.jpg",
+                                    "felo_score": "586",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.01,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "109.93"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "112.19"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "Titsburgh Feelers"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 11
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            [],
+                            {
+                              "number_of_moves": 8
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "A",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/12/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Steph",
+                                    "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "753",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.99,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "157.15"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "138.68"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "4": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=8&mid2=11",
+                  "matchup_recap_title": "Despite top scorer Hill, THE TAMPA 2 fall to Ottoman Empire, 134.74-121.23",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.8",
+                        "grade": "B"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.11",
+                        "grade": "B+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.8",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.8"
+                            },
+                            {
+                              "team_id": "8"
+                            },
+                            {
+                              "name": "Ottoman Empire"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/8"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708304443_2d4592351b.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 3
+                            },
+                            [],
+                            {
+                              "waiver_priority": 4
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "8"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/8/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "8",
+                                    "nickname": "peterO",
+                                    "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "584",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.98,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "134.78"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "126.52"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.11"
+                            },
+                            {
+                              "team_id": "11"
+                            },
+                            {
+                              "name": "THE TAMPA 2"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/11"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_6.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 12
+                            },
+                            [],
+                            {
+                              "waiver_priority": 3
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/11/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "11",
+                                    "nickname": "Kevin",
+                                    "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+                                    "image_url": "https://s.yimg.com/ag/images/4566/38726656651_bae4ac_64sq.jpg",
+                                    "felo_score": "622",
+                                    "felo_tier": "silver"
+                                  }
+                                },
+                                {
+                                  "manager": {
+                                    "manager_id": "13",
+                                    "nickname": "Chad",
+                                    "guid": "3B7LCASSQJCVRTTSMJMRIHFORI",
+                                    "is_comanager": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "588",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.020000000000000018,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "121.23"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "117.18"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "5": {
+                "matchup": {
+                  "week": "6",
+                  "week_start": "2018-10-09",
+                  "week_end": "2018-10-15",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/recap?week=6&mid1=9&mid2=10",
+                  "matchup_recap_title": "New Jack City succumb to Who?ScottyKellz, 104.92-86.67",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.9",
+                        "grade": "D"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "380.l.181541.t.10",
+                        "grade": "C"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "380.l.181541.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.9"
+                            },
+                            {
+                              "team_id": "9"
+                            },
+                            {
+                              "name": "New Jack City"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/9"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/43442306924_f00113.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 9
+                            },
+                            [],
+                            {
+                              "waiver_priority": 7
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "A-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/9/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "9",
+                                    "nickname": "Chris D",
+                                    "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+                                    "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+                                    "felo_score": "597",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.06000000000000005,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "86.47"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "121.34"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "380.l.181541.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "Who?ScottyKellz"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2018/f1/181541/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_8.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2018/f1/181541/10/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "Scott",
+                                    "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "597",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.94,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "104.82"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "6",
+                              "total": "109.80"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 6
+            }
+          }
+        }
+      }
+    ],
+    "time": "696.38395309448ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

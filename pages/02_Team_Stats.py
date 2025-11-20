@@ -1,137 +1,107 @@
-import pandas as pd
 import streamlit as st
-import matplotlib.pyplot as plt
-import matplotlib.ticker as ticker
-import os
-from tools.data_loader import load_scores_all, load_franchise, attach_franchise
+import pandas as pd
+import plotly.express as px
+from tools.data_loader import load_player_stats, seasons_available
 
-scores = load_scores_all()
-frmap = load_franchise_map()
-scores = attach_franchise(scores, frmap)
-
-if scores.empty:
-    st.warning("No scores found in /data yet.")
-    st.stop()
-
-# Common filters
-all_seasons = sorted(scores["season"].dropna().unique().tolist())
-season = st.sidebar.selectbox("Season", ["All"] + all_seasons, index=len(all_seasons))
-view = scores if season == "All" else scores[scores["season"] == season]
-
-st.set_page_config(page_title="Team Stats", layout="wide")
-st.title("🏈 Team Stats Dashboard")
-st.caption("Goodell For Nothing XV — Team Rosters, Managers, and Logos")
-
+# Load latest available player stats automatically
 DATA_DIR = "data"
-player_path = os.path.join(DATA_DIR, "player_stats_2025.csv")
+years = seasons_available(DATA_DIR)
+latest_year = max(years) if years else 2025
+ps_latest = load_player_stats(DATA_DIR, latest_year)
 
-if not os.path.exists(player_path):
-    st.error("Player data not found. Run fetch_yahoo_data.py first.")
-    st.stop()
+if ps_latest is None or ps_latest.empty:
+    st.error(f"⚠️ No player stats found in {DATA_DIR}. Please run fetch_yahoo_data.py or check your data folder.")
+else:
+    latest_week = ps_latest["week"].max()
+    ps_latest = ps_latest[ps_latest["week"] == latest_week]
 
+    teams = sorted(ps_latest["team_name"].dropna().unique())
 
-@st.cache_data(ttl=600)
-def load_players(p):
-    return pd.read_csv(p)
+    color_map = {
+        "QB": "#F4A261",
+        "RB": "#2A9D8F",
+        "WR": "#E76F51",
+        "TE": "#F9C74F",
+        "FLEX": "#90BE6D",
+        "K": "#577590",
+        "DEF": "#B5838D"
+    }
+    order = ["QB", "RB", "WR", "TE", "FLEX", "K", "DEF"]
 
+    # Iterate over teams in pairs for two cards per row
+    for i in range(0, len(teams), 2):
+        cols = st.columns(2)
+        for j in range(2):
+            idx = i + j
+            if idx >= len(teams):
+                break
+            team = teams[idx]
+            g = ps_latest[ps_latest["team_name"] == team].copy()
 
-df = load_players(player_path)
-if df.empty:
-    st.warning("No player data available.")
-    st.stop()
+            logo = g["team_logo"].iloc[0] if "team_logo" in g.columns and pd.notna(g["team_logo"].iloc[0]) else ""
+            manager_name = g["manager_name"].iloc[0] if "manager_name" in g.columns and pd.notna(g["manager_name"].iloc[0]) else None
 
-position_col = "selected_position" if "selected_position" in df.columns else "position"
-df[position_col] = df[position_col].fillna("Unknown")
+            # Compute roster composition
+            comp = (
+                g["position"]
+                .replace({"D/ST": "DEF", "DST": "DEF"})
+                .value_counts()
+                .reindex(order, fill_value=0)
+            )
+            comp = comp[comp > 0]
 
-# -----------------------------
-# Sidebar Controls
-# -----------------------------
-st.sidebar.title("Global Dashboard Controls")
-show_percent = st.sidebar.toggle("Show Percentages", value=True)
-compact_view = st.sidebar.toggle("Compact View (Smaller Charts)", value=True)
+            fig = px.pie(
+                names=comp.index,
+                values=comp.values,
+                color=comp.index,
+                color_discrete_map=color_map,
+                hole=0.4,
+            )
 
-# -----------------------------
-# League-Wide Breakdown
-# -----------------------------
-st.markdown("### 🏆 League-Wide Position Breakdown")
-position_counts = df[position_col].value_counts().sort_values(ascending=True)
-total_players = position_counts.sum()
+            fig.update_traces(
+                textinfo="label+percent",
+                hovertemplate="%{label}: %{value} players (%{percent})",
+                marker=dict(line=dict(color="white", width=1))
+            )
+            fig.update_layout(
+                margin=dict(l=0, r=0, t=0, b=0),
+                showlegend=False,
+                paper_bgcolor="rgba(0,0,0,0)",
+                plot_bgcolor="rgba(0,0,0,0)",
+                height=180,
+            )
 
-figsize = (5.5, 2.5) if compact_view else (7, 4)
-fig, ax = plt.subplots(figsize=figsize)
-bars = ax.barh(position_counts.index, position_counts.values,
-               color="#FFD700", edgecolor="#000")
+            with cols[j]:
+                st.markdown(f"""
+                    <div style="
+                        background: rgba(255, 255, 255, 0.7);
+                        border-radius: 12px;
+                        box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+                        padding: 12px 16px 16px 16px;
+                        text-align: center;
+                        backdrop-filter: blur(6px);
+                        margin-bottom: 12px;
+                    ">
+                        {"<img src='" + logo + "' style='width:60px; height:auto; border-radius:8px; object-fit:cover; border:1px solid #e5e5e5; margin-bottom:6px;'/>" if isinstance(logo,str) and logo.startswith("http") else "<div style='font-size:48px; margin-bottom:6px;'>🏈</div>"}
+                        <div style="font-weight:700; font-size:18px; margin-bottom:2px;">{team}</div>
+                        <div style="font-size:12px; color:#555; margin-bottom:8px;">{manager_name if manager_name else ''}</div>
+                    </div>
+                """, unsafe_allow_html=True)
 
-ax.set_title("Total Players per Position Across the League",
-             fontsize=11, weight="bold")
-ax.set_xlabel("Players", fontsize=9)
-ax.grid(axis="x", linestyle="--", alpha=0.4)
-ax.xaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+                st.plotly_chart(
+                    fig,
+                    width="stretch",
+                    config={"displayModeBar": False, "responsive": True},
+                    key=f"{team}_{idx}_chart"
+                )
 
-for bar, pos in zip(bars, position_counts.index):
-    width = bar.get_width()
-    pct = width / total_players * 100
-    label = f"{int(width)} ({pct:.1f}%)" if show_percent else f"{int(width)}"
-    ax.text(width + 0.3, bar.get_y() + bar.get_height()/2,
-            label, va="center", fontsize=8.5, weight="bold")
+                display_df = g[["player_name", "position", "nfl_team"]].rename(
+                    columns={
+                        "player_name": "Player",
+                        "position": "Position",
+                        "nfl_team": "NFL Team",
+                    }
+                ).sort_values(by=["Position", "Player"])
 
-st.pyplot(fig)
-st.divider()
-
-# -----------------------------
-# Team Breakdown
-# -----------------------------
-for team_name, group in df.groupby("team"):
-    manager = group["manager"].iloc[0]
-    logo = group["logo_url"].iloc[0] if "logo_url" in group.columns else ""
-    felo = group["manager_felo"].iloc[0].title() if "manager_felo" in group.columns and pd.notna(
-        group["manager_felo"].iloc[0]) else "N/A"
-    manager_pic = group["manager_image"].iloc[0] if "manager_image" in group.columns else ""
-
-    with st.container():
-        cols = st.columns([1, 4])
-        with cols[0]:
-            if logo:
-                st.image(logo, width=90)
-            else:
-                st.markdown("🏈")
-        with cols[1]:
-            st.markdown(f"### {team_name}")
-            st.markdown(f"**Manager:** {manager}")
-            st.markdown(f"**Tier:** {felo}")
-            if manager_pic:
-                st.image(manager_pic, width=60, caption=manager)
-
-        # Stats
-        roster_size = len(group)
-        positions = group[position_col].nunique()
-        pos_list = ", ".join(sorted(group[position_col].unique()))
-        st.markdown(
-            f"**Roster Size:** {roster_size} **Unique Positions:** {positions} ({pos_list})")
-
-        # Chart
-        counts = group[position_col].value_counts()
-        fig, ax = plt.subplots(
-            figsize=(5.5, 2.5) if compact_view else (6.5, 3.5))
-        bars = ax.barh(counts.index, counts.values,
-                       color="#FFD700", edgecolor="#000")
-        ax.set_title("Position Breakdown", fontsize=11, weight="bold")
-        ax.grid(axis="x", linestyle="--", alpha=0.5)
-        for bar, pos in zip(bars, counts.index):
-            width = bar.get_width()
-            pct = width / counts.sum() * 100
-            label = f"{int(width)} ({pct:.1f}%)" if show_percent else f"{int(width)}"
-            ax.text(width + 0.1, bar.get_y() + bar.get_height()/2,
-                    label, va="center", fontsize=8.5, weight="bold")
-        st.pyplot(fig)
-
-        with st.expander("Show Roster"):
-            st.dataframe(group[["player_name", position_col, "eligible_positions"]],
-                         hide_index=True, use_container_width=True)
-        st.divider()
-
-from components.header import render_header, render_footer
-
-# ... your page code ...
-
-render_footer()
+                # Small transparent table styling
+                st.dataframe(display_df, hide_index=True, width="stretch", height=180, column_order=None)

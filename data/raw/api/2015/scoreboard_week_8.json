@@ -1,0 +1,1406 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/348.l.225929/scoreboard;week=8",
+    "league": [
+      {
+        "league_key": "348.l.225929",
+        "league_id": "225929",
+        "name": "GOODell FOR NOTHIN'",
+        "url": "https://football.fantasysports.yahoo.com/2015/f1/225929",
+        "logo_url": false,
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "16",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1452152378",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "331_145833",
+        "renewed": "359_285789",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 16,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "16",
+        "start_week": "1",
+        "start_date": "2015-09-10",
+        "end_week": "16",
+        "end_date": "2015-12-28",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2015"
+      },
+      {
+        "scoreboard": {
+          "week": "8",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=1&mid2=9",
+                  "matchup_recap_title": "Who?.Matt Jones Squashes Finding Geno, Moves Up to Sixth Place",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.1",
+                        "grade": "D+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.9",
+                        "grade": "A-"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.9",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Finding Geno"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24710914954_bf9c21e97d.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 9
+                            },
+                            [],
+                            {
+                              "waiver_priority": 8
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "6"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/1/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "590",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.01,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "81.02"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "120.26"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.9"
+                            },
+                            {
+                              "team_id": "9"
+                            },
+                            {
+                              "name": "Who?..Matt Jones"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/9"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/dh/ap/fantasy/img/profile_96.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 12
+                            },
+                            [],
+                            {
+                              "waiver_priority": 7
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/9/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "9",
+                                    "nickname": "Edward Shively",
+                                    "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "679",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.99,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "137.98"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "120.46"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=2&mid2=8",
+                  "matchup_recap_title": "THE TAMPA 2 Delivers Unexpected Beatdown to D'Brick House, Relieves Them from First Place",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.2",
+                        "grade": "D"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.8",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.8",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.2"
+                            },
+                            {
+                              "team_id": "2"
+                            },
+                            {
+                              "name": "D'Brick House"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/2"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 10
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/2/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "2",
+                                    "nickname": "Chris D",
+                                    "guid": "BOPP2W4BZXTGWKI2HFXSA4J7XQ",
+                                    "image_url": "https://s.yimg.com/ag/images/4518/38724744846_904ae5_64sq.jpg",
+                                    "felo_score": "587",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.030000000000000027,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "84.80"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "131.22"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.8"
+                            },
+                            {
+                              "team_id": "8"
+                            },
+                            {
+                              "name": "THE TAMPA 2"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/8"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_6.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 4
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/8/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "8",
+                                    "nickname": "Kevin",
+                                    "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+                                    "image_url": "https://s.yimg.com/ag/images/4566/38726656651_bae4ac_64sq.jpg",
+                                    "felo_score": "810",
+                                    "felo_tier": "platinum"
+                                  }
+                                },
+                                {
+                                  "manager": {
+                                    "manager_id": "13",
+                                    "nickname": "Chad",
+                                    "guid": "3B7LCASSQJCVRTTSMJMRIHFORI",
+                                    "is_comanager": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "596",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.97,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "158.82"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "117.85"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=3&mid2=7",
+                  "matchup_recap_title": "Titsburgh Feelers Embarrasses Abdullah Oblongata for Third Straight Win",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.3",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.7",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.7",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "Abdullah Oblongata"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/24708304443_2d4592351b.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 1
+                            },
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/3/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "peterO",
+                                    "guid": "VGRITQ2V6WVUIQUROZCD5ZEX2U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "597",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "102.08"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "108.84"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "Titsburgh Feelers"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 12
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "5"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/7/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "Steph",
+                                    "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "666",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "165.87"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "120.10"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=4&mid2=6",
+                  "matchup_recap_title": "AnnexationPuertoRico Rallies to Beat Upset City, Claims 10th Place",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.4",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.6",
+                        "grade": "B-"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.6",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.4"
+                            },
+                            {
+                              "team_id": "4"
+                            },
+                            {
+                              "name": "Upset City"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/4"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 3
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/4/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "4",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "705",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.30000000000000004,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "104.71"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "120.67"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.6"
+                            },
+                            {
+                              "team_id": "6"
+                            },
+                            {
+                              "name": "AnnexationPuertoRico"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/6"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25225536792_dc5169a361.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            [],
+                            [],
+                            {
+                              "waiver_priority": 2
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/6/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "6",
+                                    "nickname": "mlapone",
+                                    "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+                                    "image_url": "https://s.yimg.com/ag/images/4564/39085801456_bdd683_64sq.jpg",
+                                    "felo_score": "591",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.7,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "114.16"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "113.75"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "4": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=5&mid2=12",
+                  "matchup_recap_title": "Tears of Boston Brings Down Brown, Climbs to Eighth Place",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.5",
+                        "grade": "B-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.12",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.12",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.5"
+                            },
+                            {
+                              "team_id": "5"
+                            },
+                            {
+                              "name": "Brown"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/5"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 7
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/5/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "5",
+                                    "nickname": "Tom",
+                                    "guid": "WVV244VHQOZLXAW3V7XTH7IVXA",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "578",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.12,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "104.18"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "101.18"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "Tears of Boston"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 6
+                            },
+                            [],
+                            {
+                              "waiver_priority": 4
+                            },
+                            [],
+                            {
+                              "number_of_moves": 8
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/12/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Kenneth Smith",
+                                    "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "565",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.88,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "127.80"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "115.07"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "5": {
+                "matchup": {
+                  "week": "8",
+                  "week_start": "2015-10-27",
+                  "week_end": "2015-11-02",
+                  "status": "postevent",
+                  "is_playoffs": "0",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/recap?week=8&mid1=10&mid2=11",
+                  "matchup_recap_title": "ManningHam N' Cheese Picks Apart SingleBroFucknHoes, Takes Top Spot in League",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.10",
+                        "grade": "A+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "348.l.225929.t.11",
+                        "grade": "D"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "348.l.225929.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "ManningHam N' Cheese"
+                            },
+                            {
+                              "is_owned_by_current_login": 1
+                            },
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/10/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "Kevinchie",
+                                    "guid": "GA2A2CNRUWQHL4CROE6XYLBW5A",
+                                    "is_current_login": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "778",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.99,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "156.65"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "119.08"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "348.l.225929.t.11"
+                            },
+                            {
+                              "team_id": "11"
+                            },
+                            {
+                              "name": "SingleBroFucknHoes"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2015/f1/225929/11"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_2.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 11
+                            },
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            [],
+                            {
+                              "number_of_moves": 11
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            [],
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2015/f1/225929/11/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "11",
+                                    "nickname": "Scott",
+                                    "guid": "M6GO4RD7WXBMO227RA6QPG7SXI",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "588",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0.010000000000000009,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "91.79"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "8",
+                              "total": "125.69"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 6
+            }
+          }
+        }
+      }
+    ],
+    "time": "755.10001182556ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

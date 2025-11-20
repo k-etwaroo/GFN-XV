@@ -1,86 +1,54 @@
 import os
 import pandas as pd
+import numpy as np
 import streamlit as st
+
+# Shared helpers expected to exist in your repo
+from tools.data_loader import (
+    load_scores_all, load_scores_year, load_player_stats,
+    load_franchise_map, attach_franchise, seasons_available
+)
+from components.header import render_header
+
+st.set_page_config(page_title="🆚 Season Comparison", layout="wide")
+render_header("Goodell For Nothing XV")
 import plotly.express as px
-st.set_page_config(page_title="Season Comparison", layout="wide")
-st.title("🆚 Season Comparison Dashboard")
-DATA_DIR = "data"
-from tools.data_loader import load_scores_all, load_franchise, attach_franchise
 
-scores = load_scores_all()
-frmap = load_franchise_map()
-scores = attach_franchise(scores, frmap)
+st.title("🆚 Season Comparison")
 
-if scores.empty:
-    st.warning("No scores found in /data yet.")
-    st.stop()
+seasons = seasons_available("data")
+if len(seasons) < 2:
+    st.info("Need at least two seasons of scores to compare."); st.stop()
 
-# Common filters
-all_seasons = sorted(scores["season"].dropna().unique().tolist())
-season = st.sidebar.selectbox("Season", ["All"] + all_seasons, index=len(all_seasons))
-view = scores if season == "All" else scores[scores["season"] == season]
+c1,c2 = st.columns(2)
+with c1:
+    a = st.selectbox("Season A", sorted(seasons), index=0)
+with c2:
+    b = st.selectbox("Season B", sorted(seasons), index=1)
 
-def load_scores(y):
-    p = os.path.join(DATA_DIR, f"scores_{y}.csv")
-    return pd.read_csv(p) if os.path.exists(p) else pd.DataFrame()
+def build(year):
+    sc = load_scores_year(year)
+    if sc.empty: return pd.DataFrame()
+    sc["win_val"] = (sc["points_for"] > sc["points_against"]).map(lambda x: 1.0 if x else 0.0)
+    winp = sc.groupby("team", as_index=False)["win_val"].mean().rename(columns={"win_val":"winp"})
+    pts = sc.groupby("team", as_index=False)["points_for"].sum().rename(columns={"points_for":"total_points"})
+    return winp.merge(pts, on="team", how="left")
 
-
-years = sorted([int(f.split("_")[1].split(".")[0])
-               for f in os.listdir(DATA_DIR) if f.startswith("scores_")])
-if len(years) < 2:
-    st.info("Need at least two seasons of scores_<year>.csv to compare.")
-    st.stop()
+A, B = build(a), build(b)
+if A.empty or B.empty:
+    st.warning("Missing data for one of the seasons."); st.stop()
 
 c1, c2 = st.columns(2)
 with c1:
-    y1 = st.selectbox("Season A", years, index=0)
-with c2:
-    y2 = st.selectbox("Season B", years, index=min(1, len(years)-1))
-
-
-def build_frame(year):
-    sc = load_scores(year)
-    if sc.empty:
-        return pd.DataFrame()
-    if {"team", "points_for", "points_against"} - set(sc.columns):
-        return pd.DataFrame()
-    sc["win_val"] = (sc["points_for"] > sc["points_against"]).astype(float)
-    winp = sc.groupby("team", as_index=False)[
-        "win_val"].mean().rename(columns={"win_val": "winp"})
-    pts = sc.groupby("team", as_index=False)["points_for"].sum().rename(
-        columns={"points_for": "total_points"})
-    return winp.merge(pts, on="team", how="left")
-
-
-a = build_frame(y1)
-b = build_frame(y2)
-if a.empty or b.empty:
-    st.info("Missing or incompatible season files; cannot build comparison.")
-    st.stop()
-
-l1, l2 = st.columns(2)
-with l1:
-    a["winnings"] = a.get("winnings", 0)
-    fig1 = px.scatter(a, x="winp", y=a["total_points"]/a["total_points"].max(),
-                      size="winnings", hover_name="team",
-                      labels={"winp": "Win %", "y": "Points (normalized)"},
-                      title=f"Season {y1}")
+    fig1 = px.scatter(A, x="winp", y=A["total_points"]/A["total_points"].max(), hover_name="team", title=f"Season {a}")
     st.plotly_chart(fig1, use_container_width=True)
-with l2:
-    b["winnings"] = b.get("winnings", 0)
-    fig2 = px.scatter(b, x="winp", y=b["total_points"]/b["total_points"].max(),
-                      size="winnings", hover_name="team",
-                      labels={"winp": "Win %", "y": "Points (normalized)"},
-                      title=f"Season {y2}")
+with c2:
+    fig2 = px.scatter(B, x="winp", y=B["total_points"]/B["total_points"].max(), hover_name="team", title=f"Season {b}")
     st.plotly_chart(fig2, use_container_width=True)
 
-merged = a.merge(b, on="team", suffixes=(f"_{y1}", f"_{y2}"))
-merged["Δ Win%"] = (merged[f"winp_{y2}"] - merged[f"winp_{y1}"]).round(3)
-merged["Δ Points"] = (
-    merged[f"total_points_{y2}"] - merged[f"total_points_{y1}"]).round(1)
-st.subheader("Δ Metrics Table")
-st.dataframe(
-    merged[["team", f"winp_{y1}", f"winp_{y2}", "Δ Win%",
-            f"total_points_{y1}", f"total_points_{y2}", "Δ Points"]],
-    use_container_width=True
-)
+merged = A.merge(B, on="team", suffixes=(f"_{a}", f"_{b}"))
+merged["Δ Win%"] = (merged[f"winp_{b}"] - merged[f"winp_{a}"]).round(3)
+merged["Δ Points"] = (merged[f"total_points_{b}"] - merged[f"total_points_{a}"]).round(1)
+st.subheader("Δ Metrics")
+st.dataframe(merged[["team", f"winp_{a}", f"winp_{b}", "Δ Win%", f"total_points_{a}", f"total_points_{b}", "Δ Points"]],
+             hide_index=True, width="stretch")

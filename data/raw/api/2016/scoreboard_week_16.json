@@ -1,0 +1,972 @@
+{
+  "fantasy_content": {
+    "xml:lang": "en-US",
+    "yahoo:uri": "/fantasy/v2/league/359.l.285789/scoreboard;week=16",
+    "league": [
+      {
+        "league_key": "359.l.285789",
+        "league_id": "285789",
+        "name": "GOODell FOR NOTHIN'",
+        "url": "https://football.fantasysports.yahoo.com/2016/f1/285789",
+        "logo_url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/27943479650_e2536512ea.jpg",
+        "draft_status": "postdraft",
+        "num_teams": 12,
+        "edit_key": "16",
+        "weekly_deadline": "",
+        "roster_type": "week",
+        "league_update_timestamp": "1483604333",
+        "scoring_type": "head",
+        "league_type": "private",
+        "renew": "348_225929",
+        "renewed": "371_13839",
+        "felo_tier": "silver",
+        "is_highscore": false,
+        "matchup_week": 16,
+        "iris_group_chat_id": "",
+        "allow_add_to_dl_extra_pos": 0,
+        "is_pro_league": "0",
+        "is_cash_league": "0",
+        "current_week": "16",
+        "start_week": "1",
+        "start_date": "2016-09-08",
+        "end_week": "16",
+        "end_date": "2016-12-26",
+        "is_finished": 1,
+        "is_plus_league": "0",
+        "game_code": "nfl",
+        "season": "2016"
+      },
+      {
+        "scoreboard": {
+          "week": "16",
+          "0": {
+            "matchups": {
+              "0": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2016-12-20",
+                  "week_end": "2016-12-26",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "1",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/recap?week=16&mid1=1&mid2=3",
+                  "matchup_recap_title": "Consolation: AnnexationPuertoRico Humiliates Fitzmagic",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.1",
+                        "grade": "C"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.3",
+                        "grade": "A+"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "359.l.285789.t.3",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.1"
+                            },
+                            {
+                              "team_id": "1"
+                            },
+                            {
+                              "name": "Fitzmagic"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/1"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/28091894953_86de98cff0.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 12
+                            },
+                            [],
+                            {
+                              "waiver_priority": 8
+                            },
+                            [],
+                            {
+                              "number_of_moves": 10
+                            },
+                            {
+                              "number_of_trades": "6"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 4
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/1/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "1",
+                                    "nickname": "Lee",
+                                    "guid": "KPLDDOE75HRHOKHP7D4DLJ3YRE",
+                                    "is_commissioner": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/1842/43464547604_ae8323_64sq.jpg",
+                                    "felo_score": "735",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "110.32"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "124.04"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.3"
+                            },
+                            {
+                              "team_id": "3"
+                            },
+                            {
+                              "name": "AnnexationPuertoRico"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/3"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/25225536792_dc5169a361.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 11
+                            },
+                            [],
+                            {
+                              "waiver_priority": 11
+                            },
+                            [],
+                            {
+                              "number_of_moves": 6
+                            },
+                            {
+                              "number_of_trades": "5"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 11
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/3/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "3",
+                                    "nickname": "mlapone",
+                                    "guid": "IAAOSELPIEFJXKB3UILBKNSFYA",
+                                    "image_url": "https://s.yimg.com/ag/images/4564/39085801456_bdd683_64sq.jpg",
+                                    "felo_score": "727",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "163.24"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "121.00"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "1": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2016-12-20",
+                  "week_end": "2016-12-26",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "1",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/recap?week=16&mid1=7&mid2=8",
+                  "matchup_recap_title": "Consolation: THE TAMPA 2 Put the Stamp on Watch the Throne \ud83d\udc40",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.7",
+                        "grade": "C-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.8",
+                        "grade": "B"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "359.l.285789.t.8",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.7"
+                            },
+                            {
+                              "team_id": "7"
+                            },
+                            {
+                              "name": "Watch the Throne \ud83d\udc40"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/7"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 7
+                            },
+                            [],
+                            {
+                              "waiver_priority": 5
+                            },
+                            [],
+                            {
+                              "number_of_moves": 10
+                            },
+                            {
+                              "number_of_trades": "7"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 7
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/7/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "7",
+                                    "nickname": "Kenneth Smith",
+                                    "guid": "RXICUQGFSZDLSOLDXZPBGWMO5U",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "536",
+                                    "felo_tier": "bronze"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "89.70"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "92.74"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.8"
+                            },
+                            {
+                              "team_id": "8"
+                            },
+                            {
+                              "name": "THE TAMPA 2"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/8"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_6.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 2
+                            },
+                            [],
+                            {
+                              "waiver_priority": 4
+                            },
+                            [],
+                            {
+                              "number_of_moves": 8
+                            },
+                            {
+                              "number_of_trades": "1"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            [],
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 6
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/8/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "8",
+                                    "nickname": "Kevin",
+                                    "guid": "6UGHYQ44WGFQM7IMMFU3BPP3ZU",
+                                    "image_url": "https://s.yimg.com/ag/images/4566/38726656651_bae4ac_64sq.jpg",
+                                    "felo_score": "603",
+                                    "felo_tier": "silver"
+                                  }
+                                },
+                                {
+                                  "manager": {
+                                    "manager_id": "13",
+                                    "nickname": "Chad",
+                                    "guid": "3B7LCASSQJCVRTTSMJMRIHFORI",
+                                    "is_comanager": "1",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "717",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "125.92"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "98.27"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "2": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2016-12-20",
+                  "week_end": "2016-12-26",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/recap?week=16&mid1=9&mid2=11",
+                  "matchup_recap_title": "Championship: My Cousin Kirk Beats Titsburgh Feelers",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.9",
+                        "grade": "B-"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.11",
+                        "grade": "A"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "359.l.285789.t.11",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.9"
+                            },
+                            {
+                              "team_id": "9"
+                            },
+                            {
+                              "name": "Titsburgh Feelers"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/9"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_5.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 3
+                            },
+                            [],
+                            {
+                              "waiver_priority": 9
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "3"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 12
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/9/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "9",
+                                    "nickname": "Steph",
+                                    "guid": "YN7YQQNWNDV25OIZS5FVWPNELE",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "620",
+                                    "felo_tier": "silver"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "120.19"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "123.07"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.11"
+                            },
+                            {
+                              "team_id": "11"
+                            },
+                            {
+                              "name": "My Cousin Kirk"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/11"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/28299204511_99fc04560f.jpg"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 8
+                            },
+                            [],
+                            {
+                              "waiver_priority": 1
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "2"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 8
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/11/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "11",
+                                    "nickname": "Edward Shively",
+                                    "guid": "DDLJVOXLB3TBCFW2FBQI4KSYSQ",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "759",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "154.32"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "136.34"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "3": {
+                "matchup": {
+                  "week": "16",
+                  "week_start": "2016-12-20",
+                  "week_end": "2016-12-26",
+                  "status": "postevent",
+                  "is_playoffs": "1",
+                  "is_consolation": "0",
+                  "is_matchup_of_the_week": "0",
+                  "is_matchup_recap_available": 1,
+                  "matchup_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/recap?week=16&mid1=10&mid2=12",
+                  "matchup_recap_title": "Consolation: Boom Squad Gets Victory Against Team Romo",
+                  "matchup_grades": [
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.10",
+                        "grade": "C+"
+                      }
+                    },
+                    {
+                      "matchup_grade": {
+                        "team_key": "359.l.285789.t.12",
+                        "grade": "F"
+                      }
+                    }
+                  ],
+                  "is_tied": 0,
+                  "winner_team_key": "359.l.285789.t.10",
+                  "0": {
+                    "teams": {
+                      "0": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.10"
+                            },
+                            {
+                              "team_id": "10"
+                            },
+                            {
+                              "name": "Boom Squad"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/10"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "previous_season_team_rank": 5
+                            },
+                            [],
+                            {
+                              "waiver_priority": 10
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": "4"
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 5
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "C+",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/10/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "10",
+                                    "nickname": "JEff",
+                                    "guid": "AUQPV6VO46IPNFKFDXFDHIZG3E",
+                                    "image_url": "https://s.yimg.com/ag/images/4601/38288660844_162bee_64sq.jpg",
+                                    "felo_score": "789",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 1,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "108.50"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "112.87"
+                            }
+                          }
+                        ]
+                      },
+                      "1": {
+                        "team": [
+                          [
+                            {
+                              "team_key": "359.l.285789.t.12"
+                            },
+                            {
+                              "team_id": "12"
+                            },
+                            {
+                              "name": "Team Romo"
+                            },
+                            [],
+                            {
+                              "url": "https://football.fantasysports.yahoo.com/2016/f1/285789/12"
+                            },
+                            {
+                              "team_logos": [
+                                {
+                                  "team_logo": {
+                                    "size": "large",
+                                    "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_1.png"
+                                  }
+                                }
+                              ]
+                            },
+                            [],
+                            [],
+                            {
+                              "waiver_priority": 6
+                            },
+                            [],
+                            {
+                              "number_of_moves": 12
+                            },
+                            {
+                              "number_of_trades": 0
+                            },
+                            {
+                              "roster_adds": {
+                                "coverage_type": "week",
+                                "coverage_value": 17,
+                                "value": "0"
+                              }
+                            },
+                            {
+                              "clinched_playoffs": 1
+                            },
+                            {
+                              "league_scoring_type": "head"
+                            },
+                            [],
+                            {
+                              "draft_position": 9
+                            },
+                            {
+                              "has_draft_grade": 1,
+                              "draft_grade": "B-",
+                              "draft_recap_url": "https://football.fantasysports.yahoo.com/2016/f1/285789/12/draftrecap"
+                            },
+                            [],
+                            [],
+                            [],
+                            [],
+                            [],
+                            {
+                              "managers": [
+                                {
+                                  "manager": {
+                                    "manager_id": "12",
+                                    "nickname": "Chris",
+                                    "guid": "OG6GL5AOKECVCEIF7L5CTEOEQA",
+                                    "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                                    "felo_score": "701",
+                                    "felo_tier": "gold"
+                                  }
+                                }
+                              ]
+                            }
+                          ],
+                          {
+                            "win_probability": 0,
+                            "team_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "79.66"
+                            },
+                            "team_projected_points": {
+                              "coverage_type": "week",
+                              "week": "16",
+                              "total": "114.45"
+                            }
+                          }
+                        ]
+                      },
+                      "count": 2
+                    }
+                  }
+                }
+              },
+              "count": 4
+            }
+          }
+        }
+      }
+    ],
+    "time": "1455.5490016937ms",
+    "copyright": "Certain Data by Sportradar, Stats Perform and Rotowire",
+    "refresh_rate": "60"
+  }
+}

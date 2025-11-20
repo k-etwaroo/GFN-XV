@@ -1,0 +1,218 @@
+[
+  {
+    "team_key": "257.l.114705.t.1",
+    "name": "FLIGHT BOYZ",
+    "rank": 1,
+    "playoff_seed": "1",
+    "outcome_totals": {
+      "wins": "10",
+      "losses": "3",
+      "ties": 0,
+      "percentage": ".769"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1978.18",
+    "points_against": 1633.49
+  },
+  {
+    "team_key": "257.l.114705.t.7",
+    "name": "Titsburgh Feelers",
+    "rank": 2,
+    "playoff_seed": "6",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1489.52",
+    "points_against": 1514.8200000000002
+  },
+  {
+    "team_key": "257.l.114705.t.5",
+    "name": "ManningHAM n' Cheese",
+    "rank": 3,
+    "playoff_seed": "2",
+    "outcome_totals": {
+      "wins": "8",
+      "losses": "5",
+      "ties": 0,
+      "percentage": ".615"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1619.57",
+    "points_against": 1464.2300000000002
+  },
+  {
+    "team_key": "257.l.114705.t.8",
+    "name": "GMEN",
+    "rank": 4,
+    "playoff_seed": "5",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1491.46",
+    "points_against": 1527.3399999999997
+  },
+  {
+    "team_key": "257.l.114705.t.4",
+    "name": "B ABES",
+    "rank": 5,
+    "playoff_seed": "4",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1562.30",
+    "points_against": 1500.1000000000001
+  },
+  {
+    "team_key": "257.l.114705.t.6",
+    "name": "CremeOfSomeYoungGuy",
+    "rank": 6,
+    "playoff_seed": "3",
+    "outcome_totals": {
+      "wins": "7",
+      "losses": "6",
+      "ties": 0,
+      "percentage": ".538"
+    },
+    "streak": {
+      "type": "win",
+      "value": "1"
+    },
+    "points_for": "1562.32",
+    "points_against": 1554.77
+  },
+  {
+    "team_key": "257.l.114705.t.3",
+    "name": "#sanchizeSWAG",
+    "rank": 7,
+    "playoff_seed": "12",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".385"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1311.99",
+    "points_against": 1569.5500000000002
+  },
+  {
+    "team_key": "257.l.114705.t.10",
+    "name": "Team Bush",
+    "rank": 8,
+    "playoff_seed": "7",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1643.21",
+    "points_against": 1630.05
+  },
+  {
+    "team_key": "257.l.114705.t.9",
+    "name": "Team Kellz",
+    "rank": 9,
+    "playoff_seed": "8",
+    "outcome_totals": {
+      "wins": "6",
+      "losses": "7",
+      "ties": 0,
+      "percentage": ".462"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "1"
+    },
+    "points_for": "1605.45",
+    "points_against": 1607.25
+  },
+  {
+    "team_key": "257.l.114705.t.11",
+    "name": "Swearing at Fans",
+    "rank": 10,
+    "playoff_seed": "11",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".385"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "2"
+    },
+    "points_for": "1388.99",
+    "points_against": 1579.8999999999999
+  },
+  {
+    "team_key": "257.l.114705.t.12",
+    "name": "Child Please",
+    "rank": 11,
+    "playoff_seed": "10",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".385"
+    },
+    "streak": {
+      "type": "loss",
+      "value": "4"
+    },
+    "points_for": "1513.87",
+    "points_against": 1572.78
+  },
+  {
+    "team_key": "257.l.114705.t.2",
+    "name": "Hail the Skins",
+    "rank": 12,
+    "playoff_seed": "9",
+    "outcome_totals": {
+      "wins": "5",
+      "losses": "8",
+      "ties": 0,
+      "percentage": ".385"
+    },
+    "streak": {
+      "type": "win",
+      "value": "2"
+    },
+    "points_for": "1659.42",
+    "points_against": 1672
+  }
+]
